@@ -1,11 +1,25 @@
-import styles from './Hero.module.css'
+import styles from "./Hero.module.css";
+import Button from "./utils/Button";
 
 function Hero() {
-    return (
-        <section className={styles.heroContainer}>
-           <h1>Hero Section</h1>
-        </section>
-    )
+  return (
+    <section className={styles.heroContainer}>
+      <div className={styles.content}>
+        <h1 className={styles.heading}>
+          From Eye Level to <span>Sky Level</span>
+        </h1>
+        <p className={styles.copy}>
+          We are a visulal production company, specializing in ariel drone
+          videography and photography.We are a visulal production company,
+          specializing in ariel drone videography and photography.
+        </p>
+        <div className={styles.btnContainer}>
+          <Button text='Contact Us' />
+          <Button text='See Pricing' color='primaryOutline2' />
+        </div>
+      </div>
+    </section>
+  );
 }
 
-export default Hero
+export default Hero;

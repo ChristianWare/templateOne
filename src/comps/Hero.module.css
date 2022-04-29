@@ -1,0 +1,38 @@
+.heroContainer {
+    margin-bottom: 15rem;
+    background-color: var(--accent3);
+    height: 100vh;
+}
+
+.content {
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading {
+    font-family: "TekoRegular";
+    color: var(--accent4);
+    margin-top: 20rem;
+}
+
+.heading span {
+    font-family: "TekoRegular";
+    color: var(--accent2);
+}
+
+.copy {
+    width: 60%;
+    color: var(--accent4);
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.btnContainer {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 4rem;
+}
