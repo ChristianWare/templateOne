@@ -1,10 +1,8 @@
 :root {
-  --accent1: #02044A;
-  --accent1b: #555555;
-  --accent2: #FCDA69;
-  --accent3: #755BF5;
-  --accent4: #f4f2ef;
-  --spc: #f4f2ef;
+  --accent1: #303030;
+  --accent2: #F7FC6C;
+  --accent3: #A4A4A4;
+  --accent4: #ffffff;
 }
 
 @font-face {
