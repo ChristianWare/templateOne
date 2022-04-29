@@ -51,9 +51,9 @@
 }
 
 .phoneContainer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: none;
+    /* align-items: center;
+    justify-content: center; */
 }
 
 .phoneNumber {
@@ -109,8 +109,7 @@
         font-weight: bold;
         transition: 0.3s;
         background-color: var(--accent2);
-        z-index: 998;
-        
+        z-index: 998;      
     }
 
     .navmenu.active {
@@ -122,7 +121,7 @@
         font-size: 4rem;      
     }
 
-    .phone {
+    .phone1 {
         font-size: 4rem;
         margin-right: 2rem;
     }
@@ -145,6 +144,21 @@
         display: flex;
         justify-content: flex-end;
         gap: 3rem
+    }
+
+    .phoneContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .phone {
+        font-size: 4rem;
+        margin-right: 2rem;
+    }
+
+    .phone1 {
+        display: none;
     }
 
     .hamburger.active .bar:nth-child(1) {

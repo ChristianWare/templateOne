@@ -27,7 +27,7 @@ function Nav() {
         <Link href='/' passHref>
           <div className={styles.navLeft}>
             <span className={styles.navbarLogo}>
-              <a title='Fonts & Footers Logo'>COMPANY NAME</a>
+              <a title='Company Name'>COMPANY NAME</a>
             </span>
           </div>
         </Link>
@@ -96,26 +96,19 @@ function Nav() {
               </Link>
             </li>
             <li className={styles.navItem}>
-              {isOpen === false ? (
+              <Phone className={styles.phone1} />
+              <div className={styles.phoneContainer}>
                 <Phone className={styles.phone} />
-              ) : (
-                <div className={styles.phoneContainer}>
-                  <Phone className={styles.phone} />
-                  <p className={styles.phoneNumber}>623-448-8997</p>
-                </div>
-              )}
+                <p className={styles.phoneNumber}>623-448-8997</p>
+              </div>
             </li>
             <li className={styles.navItem}>
-              {isOpen === false ? (
+              <Plane className={styles.phone1} />
+              <div className={styles.phoneContainer}>
                 <Plane className={styles.phone} />
-              ) : (
-                <div className={styles.phoneContainer}>
-                  <Plane className={styles.phone} />
-                  <p className={styles.phoneNumber}>email@company.com</p>
-                </div>
-              )}
+                <p className={styles.phoneNumber}>email@company.com</p>
+              </div>
             </li>
-            
           </ul>
 
           <span
