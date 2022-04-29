@@ -14,8 +14,9 @@
 .heading {
     font-family: "TekoRegular";
     color: var(--accent4);
-    margin-top: 20rem;
+    margin-top: 15rem;
     text-align: center;
+    line-height: 1;
 }
 
 .heading span {
