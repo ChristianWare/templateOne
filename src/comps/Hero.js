@@ -6,12 +6,11 @@ function Hero() {
     <section className={styles.heroContainer}>
       <div className={styles.content}>
         <h1 className={styles.heading}>
-          From Eye Level to <span>Sky Level</span>
+          From Eye Level <br /> to <span>Sky Level</span>
         </h1>
         <p className={styles.copy}>
           We are a visulal production company, specializing in ariel drone
-          videography and photography.We are a visulal production company,
-          specializing in ariel drone videography and photography.
+          videography and photography. We are a visulal production company.
         </p>
         <div className={styles.btnContainer}>
           <Button text='Contact Us' />

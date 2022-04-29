@@ -7,10 +7,8 @@
     display: block;
     width: 100%;
     text-transform: uppercase;
-    font-family: 'Lato';
-    font-weight: 800;
-    letter-spacing: .4px;
-    font-size: 1.6rem;
+    font-family: "MontserratBold";
+    font-size: 2rem;
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
@@ -60,7 +58,7 @@
      }
  }
 
- @media screen and (max-width: 480px) {
+ @media screen and (max-width: 630px) {
     .container {
         width: 100%;
     } 
@@ -74,20 +72,10 @@
         background-color: var(--accent3);
         color: var(--accent4);
     }
- }
 
- .btn {
+    .btn {
      font-size: 2rem;
+    }
  }
 
- @media screen and (max-width: 390px) {
-     .large {
-         padding: 10px 35px;
-     }
- }
-
- @media screen and (max-width: 350px) {
-     .large {
-         padding: 8px 25px;
-     }
- }
+ 
