@@ -1,9 +1,13 @@
 import styles from "./Hero.module.css";
 import Button from "./utils/Button";
+import Image from "next/image";
+import BG from "../../public/images/bg.jpg";
 
 function Hero() {
   return (
     <section className={styles.heroContainer}>
+      <div className={styles.imgContainer}></div>
+      <Image src={BG} layout='fill' objectFit='cover' className={styles.img} />
       <div className={styles.content}>
         <h1 className={styles.heading}>
           From Eye Level <br /> to <span>Sky Level</span>

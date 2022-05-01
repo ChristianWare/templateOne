@@ -1,6 +1,7 @@
 .heroContainer {
     margin-bottom: 15rem;
     background-color: var(--accent3);
+    position: relative;
 }
 
 .content {
@@ -9,14 +10,26 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    z-index: 1000;
+}
+
+.imgContainer {
+    z-index: 1;
+    position: absolute;
+    height: 100%;
+    width:100%;
+    background: linear-gradient(to bottom, rgb(123, 8, 255, 0.2), rgb(123, 8, 255,0.8));
+    /* background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)); */
 }
 
 .heading {
     font-family: "TekoRegular";
+    font-size: 7rem;
     color: var(--accent4);
     margin-top: 15rem;
     text-align: center;
     line-height: 1;
+    z-index: 100;
 }
 
 .heading span {
@@ -26,10 +39,12 @@
 }
 
 .copy {
+    /* font-family: "MontserratBold"; */
     width: 60%;
     color: var(--accent4);
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 1.9rem;
+    z-index: 100;
 }
 
 .btnContainer {
@@ -38,7 +53,7 @@
     justify-content: center;
     gap: 5rem;
     margin-top: 4rem;
-    margin-bottom: 20rem;
+    margin-bottom: 10rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -52,5 +67,6 @@
         flex-direction: column;
         align-items: center;
         width: 100%;
+        gap: 3rem;
     }
 }
