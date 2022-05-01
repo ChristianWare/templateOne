@@ -1,5 +1,4 @@
 .heroContainer {
-    margin-bottom: 15rem;
     background-color: var(--accent3);
     position: relative;
 }
@@ -10,11 +9,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    z-index: 1000;
 }
 
 .imgContainer {
-    z-index: 1;
+    z-index: 2;
     position: absolute;
     height: 100%;
     width:100%;
@@ -22,14 +20,18 @@
     /* background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)); */
 }
 
+.img {
+    z-index: 1;
+}
+
 .heading {
     font-family: "TekoRegular";
     font-size: 7rem;
     color: var(--accent4);
-    margin-top: 15rem;
+    margin-top: 5rem;
     text-align: center;
     line-height: 1;
-    z-index: 100;
+    z-index: 3;
 }
 
 .heading span {
@@ -39,12 +41,11 @@
 }
 
 .copy {
-    /* font-family: "MontserratBold"; */
     width: 60%;
     color: var(--accent4);
     text-align: center;
-    font-size: 1.9rem;
-    z-index: 100;
+    font-size: 2rem;
+    z-index: 3;
 }
 
 .btnContainer {
@@ -53,8 +54,10 @@
     justify-content: center;
     gap: 5rem;
     margin-top: 4rem;
-    margin-bottom: 10rem;
+    z-index: 3;
+    margin-bottom: 15rem;
 }
+
 
 @media screen and (max-width: 768px) {
     .copy {
