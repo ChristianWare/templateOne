@@ -29,7 +29,7 @@ function Hero() {
           </div>
         </div>
       </section>
-      <Services />
+      {/* <Services /> */}
     </>
   );
 }
