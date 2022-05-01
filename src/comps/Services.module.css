@@ -1,10 +1,10 @@
 .servicesBoxes {
     padding: 0rem 15rem;
+    margin-top: -5rem;
+    margin-bottom: 15rem;
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    gap: 3rem;
-    margin-top: -15rem;
 }
 
 .bx1 {
@@ -12,13 +12,12 @@
     background-color: var(--accent2);
     color: var(--accent1);
     z-index: 10;
-    border: 2px solid var(--accent5);
 }
 
 .bx1:nth-child(2) {
     background-color: var(--accent1);
     color: var(--accent4);
-    z-index: 99999;
+    z-index: 10;
 }
 
 .servicesBoxes h3 {
@@ -27,6 +26,7 @@
 }
 
 .servicesBoxes p {
+    font-family: "TekoRegular";
     font-size: 1.6rem;
     margin-bottom: 2rem;
 }

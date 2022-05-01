@@ -7,7 +7,7 @@ function Services() {
           <h3>Service One</h3>
           <p>
             Services details description filler text will go her in this very
-            spot. To be edited with real service data and information.
+            spot.
           </p>
           <h4>READ MORE</h4>
         </div>
@@ -15,7 +15,7 @@ function Services() {
           <h3>Service One</h3>
           <p>
             Services details description filler text will go her in this very
-            spot. To be edited with real service data and information.
+            spot.
           </p>
           <h4>READ MORE</h4>
         </div>
@@ -23,7 +23,7 @@ function Services() {
           <h3>Service One</h3>
           <p>
             Services details description filler text will go her in this very
-            spot. To be edited with real service data and information.
+            spot.
           </p>
           <h4>READ MORE</h4>
         </div>
