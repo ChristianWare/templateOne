@@ -20,14 +20,14 @@
 
 .primary {
      background-color: var(--accent2);
-     border: solid 4px var(--accent2);
+     border: solid 2px var(--accent2);
      color: var(--accent1);
      position: relative;
  }
 
  .primaryOutline2 {
      background-color: transparent;
-     border: 4px solid var(--accent2);
+     border: 2px solid var(--accent2);
      color: var(--accent2);
  }
 
@@ -41,13 +41,13 @@
 
      .primary:hover {
          background-color: var(--accent4);
-         border: 4px solid var(--accent4);
+         border: 2px solid var(--accent4);
          color: var(--accent1);
      }
 
      .primaryOutline2:hover {
          background-color: var(--accent2);
-         border: 4px solid var(--accent2);
+         border: 2px solid var(--accent2);
          color: var(--accent1);
      }
 

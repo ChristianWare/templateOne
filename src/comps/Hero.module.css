@@ -41,7 +41,8 @@
 .copy {
     width: 60%;
     color: var(--accent4);
-    font-family: "TekoMedium";
+    font-family: "TekoLight";
+    letter-spacing: .5px;
     text-align: center;
     font-size: 2.7rem;
     z-index: 3;
