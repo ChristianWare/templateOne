@@ -98,15 +98,18 @@ function Nav() {
             <li className={styles.navItem}>
               <Phone className={styles.phone1} />
               <div className={styles.phoneContainer}>
-                <Phone className={styles.phone} />
-                <p className={styles.phoneNumber}>623-448-8997</p>
+                <p className={styles.phoneNumber}>
+                  <Phone className={styles.phone} />
+                  623-448-8997
+                </p>
               </div>
             </li>
             <li className={styles.navItem}>
               <Plane className={styles.phone1} />
               <div className={styles.phoneContainer}>
-                <Plane className={styles.phone} />
-                <p className={styles.phoneNumber}>email@company.com</p>
+                <p className={styles.phoneNumber}>
+                  <Plane className={styles.phone} /> email@company.com
+                </p>
               </div>
             </li>
           </ul>

@@ -72,6 +72,12 @@
     font-size: 4rem;
 }
 
+.phoneNumber:hover .phone {
+    color: var(--accent5);
+    transition: all 200ms ease;
+}
+
+
 .activeRouter {
     position: relative;
     text-transform: uppercase;
@@ -166,11 +172,10 @@
     .phone {
         font-size: 4rem;
         margin-right: 2rem;
+        position: relative;
+        top: 8px;
     }
     
-    .phone:hover {
-        color: var(--accent5)
-    }
 
     .phone1 {
         display: none;
