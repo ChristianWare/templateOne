@@ -1,0 +1,74 @@
+.miscContainer {
+    margin-bottom: 15rem;
+}
+
+.content {
+    position: relative;
+}
+
+.imgOverlay {
+    z-index: 2;
+    position: absolute;
+    height: 550px;
+    width:100%;
+    background: linear-gradient(to bottom, rgb(123, 8, 255, 0.2), rgb(123, 8, 255, 0.8));
+    clip-path: polygon(0% 0%, 100% 0%, 100% 60%, 50% 100%, 0% 60%);
+}
+
+.imgContainer {
+    position: relative;
+    height: 550px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 60%, 50% 100%, 0% 60%);
+}
+
+.infoBoxContainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0rem;
+    padding: 2rem;
+}
+
+.infoBox {
+    position: relative;
+    z-index: 10;
+     background-color: var(--accent2);
+     height: 495px;
+     width: 100%;
+     padding: 2rem;
+     padding-bottom: 31rem;
+     clip-path: polygon(0% -1000%, 99% 0%, 99% 58%, 50% 99%, 1% 58%);
+     margin-top: -55rem;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+}
+
+.infoBox h3 {
+    z-index: 2;
+    font-family: "TekoRegular";
+}
+
+.infoBox p {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.btnContainer {
+    display: flex;
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .infoBox {
+        margin-top: -62rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    
+    .infoBox {
+        margin-top: -68rem;
+    }
+}
