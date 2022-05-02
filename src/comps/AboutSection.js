@@ -9,23 +9,21 @@ function AboutSection() {
       </div>
       <div className={styles.bottom}>
         <div className={styles.bottomLeft}>
-          <h3>Our philosophy and mission (About)</h3>
-          <p>
+          <h3>Our philosophy & mission</h3>
+          <p lang='en'>
             We are a visulal production company, specializing in ariel drone
             videography and photography. We are a visulal production company,
             specializing in ariel drone videography and photography.ography.
           </p>
           <h4>
             We are a visulal production company, specializing in ariel drone
-            videography.
+            videography & photography.
           </h4>
           <div className={styles.btnContainer}>
             <Button text='request a quote' color='tertiary' />
           </div>
         </div>
-        <div className={styles.bottomRight}>
-            Image Will Go Here
-        </div>
+        <div className={styles.bottomRight}>Image Will Go Here</div>
       </div>
     </section>
   );

@@ -8,7 +8,7 @@
     width: 100%;
     text-transform: uppercase;
     font-family: "MontserratBold";
-    font-size: 2rem;
+    font-size: 1.6rem;
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
@@ -61,6 +61,12 @@
      }
  }
 
+ @media screen and (max-width: 768px) {
+     .btn {
+     font-size: 1.85rem;
+    }
+ }
+
  @media screen and (max-width: 630px) {
     .container {
         width: 100%;
@@ -74,10 +80,6 @@
     .primaryOutline2:active {
         background-color: var(--accent3);
         color: var(--accent4);
-    }
-
-    .btn {
-     font-size: 2rem;
     }
  }
 

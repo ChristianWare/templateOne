@@ -29,7 +29,40 @@
 
 .bottom {
     padding: 5rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 3rem;
 }
+
+.bottomLeft, .bottomRight {
+    flex: 1;
+}
+
+.bottomLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1rem
+}
+
+.bottomLeft h3 {
+    text-transform: capitalize;
+    font-family: "TekoRegular";
+}
+
+.bottomLeft p {
+    hyphens: auto;
+}
+
+.bottomLeft h4 {
+    text-transform: capitalize;
+    font-family: "TekoRegular";
+    font-size: 2.8rem;
+}
+
+
 
 .btnContainer {
     display: flex;
