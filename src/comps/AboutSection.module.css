@@ -1,0 +1,36 @@
+.aboutSectionContainer {
+    margin-bottom: 15rem;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    z-index: 1;
+}
+
+.top::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: -50px;
+    width: calc(50% + 50px);
+    height: 100%;
+    background-color: var(--accent2);
+    clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
+
+}
+
+.sectionHeading {
+    font-family: "TekoRegular";
+}
+
+.bottom {
+    padding: 5rem;
+}
+
+.btnContainer {
+    display: flex;
+}

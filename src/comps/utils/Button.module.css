@@ -15,7 +15,7 @@
     padding: 15px 45px;
     z-index: 5;
     cursor: pointer;
-    transition: all 0.1s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .primary {
@@ -32,8 +32,8 @@
  }
 
  .tertiary {
-     background-color: transparent;
-     color: var(--accent1);
+     background-color: var(--accent1);
+     color: var(--accent4);
      border: solid 2px var(--accent1);
  }
 
@@ -43,18 +43,21 @@
          background-color: var(--accent4);
          border: 2px solid var(--accent4);
          color: var(--accent1);
+         transition: all 0.3s ease-in-out;
      }
 
      .primaryOutline2:hover {
          background-color: var(--accent2);
          border: 2px solid var(--accent2);
          color: var(--accent1);
+         transition: all 0.3s ease-in-out;
      }
 
      .tertiary:hover {
          background-color: var(--accent4);
          border: 2px solid var(--accent1);
          color: var(--accent1);
+         transition: all 0.3s ease-in-out;
      }
  }
 
