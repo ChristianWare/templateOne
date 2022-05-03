@@ -1,0 +1,64 @@
+.left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    z-index: 1;
+}
+
+.left::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: -90px;
+    width: calc(50% + 50px);
+    height: 100%;
+    background-color: var(--accent2);
+    clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    z-index: 1;
+}
+
+.right::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: -90px;
+    width: calc(50% + 50px);
+    height: 100%;
+    background-color: var(--accent2);
+    clip-path: polygon(100% 0%, 100% 100%, 0% 100%, 20% 0%);
+}
+
+
+
+.sectionHeading {
+    font-family: "TekoRegular";
+    text-transform: capitalize;
+}
+
+@media screen and (max-width: 768px) {
+    .top::after {
+        width: calc(80% + 50px); 
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .top::after {
+        width: calc(90% + 50px); 
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .top::after {
+        width: calc(100% + 50px); 
+    }
+}
