@@ -38,27 +38,47 @@
     clip-path: polygon(100% 0%, 100% 100%, 0% 100%, 20% 0%);
 }
 
-
-
 .sectionHeading {
     font-family: "TekoRegular";
     text-transform: capitalize;
 }
 
 @media screen and (max-width: 768px) {
-    .top::after {
-        width: calc(80% + 50px); 
+    .left::after {
+        width: 70%; 
+    }
+    
+    .right::after {
+        width: 70%; 
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .left::after {
+        width: 80%; 
+    }
+    
+    .right::after {
+        width: 80%; 
     }
 }
 
 @media screen and (max-width: 480px) {
-    .top::after {
-        width: calc(90% + 50px); 
+    .left::after {
+        width: calc(90% + 60px); 
+    }
+    
+    .right::after {
+        width: calc(90% + 60px); 
     }
 }
 
 @media screen and (max-width: 400px) {
-    .top::after {
-        width: calc(100% + 50px); 
+    .left::after {
+        width: calc(100% + 60px); 
+    }
+    
+    .right::after {
+        width: calc(100% + 60px); 
     }
 }

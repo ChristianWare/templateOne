@@ -1,12 +1,11 @@
 import styles from "./WhyChooseUs.module.css";
 import Plane from "../../public/icons/plane.svg";
+import SectionHeader from "./SectionHeader";
 
 function WhyChooseUs() {
   return (
     <div className={styles.wcuContainer}>
-      <div className={styles.top}>
-        <h2 className={styles.sectionHeading}>Why Choose Us</h2>
-      </div>
+      <SectionHeader text='why choose us' side='right' />
       <div className={styles.bottom}>
         <div className={styles.reasonBoxes}>
           <div className={styles.reason}>

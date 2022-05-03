@@ -2,13 +2,12 @@ import styles from "./AboutSection.module.css";
 import Button from "./utils/Button";
 import Image from "next/image";
 import img1 from "../../public/images/bg.jpg";
+import SectionHeader from "./SectionHeader";
 
 function AboutSection() {
   return (
     <section className={styles.aboutSectionContainer}>
-      <div className={styles.top}>
-        <h2 className={styles.sectionHeading}>About Us</h2>
-      </div>
+      <SectionHeader text='About Us' />
       <div className={styles.bottom}>
         <div className={styles.bottomLeft}>
           <h3>Our philosophy & mission</h3>
