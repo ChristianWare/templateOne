@@ -3,7 +3,7 @@ import Button from "./utils/Button";
 import Image from "next/image";
 import img1 from "../../public/images/bg.jpg";
 
-function Mics() {
+function Misc() {
   return (
     <div className={styles.miscContainer}>
       <div className={styles.content}>
@@ -30,4 +30,4 @@ function Mics() {
   );
 }
 
-export default Mics;
+export default Misc;

@@ -1,8 +1,7 @@
-import Hero from '../src/comps/Hero'
-import Services from '../src/comps/services'
-import AboutSection from '../src/comps/AboutSection'
-import Mics from '../src/comps/Mics'
-
+import Hero from "../src/comps/Hero";
+import Services from "../src/comps/services";
+import AboutSection from "../src/comps/AboutSection";
+import Misc from "../src/comps/Misc";
 
 export default function Home() {
   return (
@@ -10,7 +9,7 @@ export default function Home() {
       <Hero />
       <Services />
       <AboutSection />
-      <Mics />
+      <Misc />
     </div>
-  )
+  );
 }
