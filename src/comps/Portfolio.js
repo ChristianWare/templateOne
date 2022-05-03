@@ -28,11 +28,11 @@ function Portfolio() {
           </div>
 
           <div className={styles.box3}>
-            <h5>Feature</h5>
+            <h5>Key Word</h5>
           </div>
 
           <div className={styles.box4}>
-            <h5>Feature</h5>
+            <h5>Key Word</h5>
             <a></a>
           </div>
 
@@ -55,7 +55,7 @@ function Portfolio() {
             />
           </div>
           <div className={styles.box2B}>
-            <h5>Feature</h5>
+            <h5>Key Word</h5>
           </div>
           <div className={styles.box3B}>
             <Image
@@ -66,7 +66,7 @@ function Portfolio() {
             />
           </div>
           <div className={styles.box4B}>
-            <h5>Feature</h5>
+            <h5>Key Word</h5>
           </div>
           <div className={styles.box5B}>
             <Image
