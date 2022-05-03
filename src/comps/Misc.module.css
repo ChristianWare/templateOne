@@ -6,18 +6,17 @@
     position: relative;
 }
 
-.imgOverlay {
-    z-index: 2;
+.imgContainer {
+    height: 550px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 60%, 50% 100%, 0% 60%);
+}
+
+.imgContainer::after {
+    content: '';
     position: absolute;
     height: 550px;
     width:100%;
     background: linear-gradient(to bottom, rgb(123, 8, 255, 0.2), rgb(123, 8, 255, 0.8));
-    clip-path: polygon(0% 0%, 100% 0%, 100% 60%, 50% 100%, 0% 60%);
-}
-
-.imgContainer {
-    position: relative;
-    height: 550px;
     clip-path: polygon(0% 0%, 100% 0%, 100% 60%, 50% 100%, 0% 60%);
 }
 
@@ -27,22 +26,25 @@
     justify-content: center;
     gap: 0rem;
     padding: 2rem;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .infoBox {
     position: relative;
     z-index: 10;
-     background-color: var(--accent2);
-     height: 495px;
-     width: 100%;
-     padding: 2rem;
-     padding-bottom: 31rem;
-     clip-path: polygon(0% -1000%, 99% 0%, 99% 58%, 50% 99%, 1% 58%);
-     margin-top: -54.5rem;
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     justify-content: center;
+    background-color: var(--accent2);
+    height: 495px;
+    width: 100%;
+    padding: 2rem;
+    padding-bottom: 31rem;
+    clip-path: polygon(0% -1000%, 99% 0%, 99% 58%, 50% 99%, 1% 58%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .infoBox h3 {
@@ -60,14 +62,3 @@
     margin-top: 2rem;
 }
 
-@media screen and (max-width: 768px) {
-    .infoBox {
-        margin-top: -62rem;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .infoBox {
-        margin-top: -68rem;
-    }
-}

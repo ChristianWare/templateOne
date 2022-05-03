@@ -7,7 +7,6 @@ function Misc() {
   return (
     <div className={styles.miscContainer}>
       <div className={styles.content}>
-        <div className={styles.imgOverlay}></div>
         <div className={styles.imgContainer}>
           <Image
             src={img1}
