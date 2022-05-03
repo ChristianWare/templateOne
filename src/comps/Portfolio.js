@@ -26,19 +26,16 @@ function Portfolio() {
               objectFit='cover'
             />
           </div>
-          <Link href='/services/#beards' passHref>
-            <div className={styles.box3}>
-              <h5>Beards</h5>
 
-              <a></a>
-            </div>
-          </Link>
-          <Link href='/services/#haircuts' passHref>
-            <div className={styles.box4}>
-              <h5>Hair Cuts</h5>
-              <a></a>
-            </div>
-          </Link>
+          <div className={styles.box3}>
+            <h5>Feature</h5>
+          </div>
+
+          <div className={styles.box4}>
+            <h5>Feature</h5>
+            <a></a>
+          </div>
+
           <div className={styles.box5}>
             <Image
               src={img1}
@@ -57,13 +54,9 @@ function Portfolio() {
               objectFit='cover'
             />
           </div>
-          <Link href='/services/#children' passHref>
-            <div className={styles.box2B}>
-              <h5>Children</h5>
-
-              <a></a>
-            </div>
-          </Link>
+          <div className={styles.box2B}>
+            <h5>Feature</h5>
+          </div>
           <div className={styles.box3B}>
             <Image
               src={img1}
@@ -72,12 +65,9 @@ function Portfolio() {
               objectFit='cover'
             />
           </div>
-          <Link href='/services/#haircuts' passHref>
-            <div className={styles.box4B}>
-              <h5>Hair Cuts</h5>
-              <a></a>
-            </div>
-          </Link>
+          <div className={styles.box4B}>
+            <h5>Feature</h5>
+          </div>
           <div className={styles.box5B}>
             <Image
               src={img1}
