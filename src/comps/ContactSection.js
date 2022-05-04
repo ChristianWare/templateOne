@@ -1,5 +1,11 @@
 import styles from "./ContactSection.module.css";
 import Button from "./utils/Button";
+import Phone from '../../public/icons/phone.svg'
+import Plane from '../../public/icons/plane.svg'
+import FB from '../../public/icons/facebook.svg'
+import IG from '../../public/icons/instagram.svg'
+import LI from '../../public/icons/linkedin.svg'
+import YT from '../../public/icons/youtube.svg'
 
 function ContactSection() {
   return (
@@ -11,9 +17,25 @@ function ContactSection() {
             <span>A Line</span>
           </h2>
           <p className={styles.copy}>
-            Here are the best ways to contact us. Feel free to reach out at any
-            time that is good for you.
+            We are a visulal production company, specializing in ariel drone
+            videography and photography.
           </p>
+          <div className={styles.iconBox}>
+            <p>
+              <Phone className={styles.icon} />
+              623-665-6555
+            </p>
+            <p>
+              <Plane className={styles.icon} />
+              hello@email.com
+            </p>
+            <div className={styles.socials}>
+              <FB className={styles.socialIcon} />
+              <IG className={styles.socialIcon} />
+              <LI className={styles.socialIcon} />
+              <YT className={styles.socialIcon} />
+            </div>
+          </div>
         </div>
         <div className={styles.right}>
           <div className={styles.contactForm}>
@@ -36,7 +58,7 @@ function ContactSection() {
               </div>
               <div className={styles.btnContainer}>
                 <div className={styles.containerBtn}>
-                  <Button text="Send Message" color='tertiary' />
+                  <Button text='Send Message' color='tertiary' />
                 </div>
               </div>
             </form>

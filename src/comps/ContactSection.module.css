@@ -29,7 +29,42 @@
     font-family: "MontserratBold";
     font-size: 1.8rem;
     color: var(--accent1);
-    width: 70%;
+    width: 80%;
+}
+
+.iconBox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.iconBox p {
+    cursor: pointer;
+    color: var(--accent5);
+}
+
+.icon {
+  font-size: 2rem;
+  position: relative;
+  top: 5px;
+  margin-right: 1rem;
+  color: var(--accent5);
+}
+
+.socials {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 4rem;
+    cursor: pointer;
+}
+
+.socialIcon {
+    color: var(--accent5)
 }
 
 .right {
@@ -114,7 +149,6 @@
     font-weight: 500;
 }
 
-
 .icon2 {
     color: var(--accent1);
     position: relative;
@@ -131,62 +165,41 @@
 
 @media screen and (max-width: 900px) {
     .content {
-        display: flex;
         flex-direction: column;
-    }
-
-    .contactForm,
-    .contactInfo {
-        width: 100%;
-        height: auto;
-    }
-
-    .contactInfo {
-        flex-direction: row;
-    }
-
-    .contactInfo h2 {
-        text-align: center;
-}
-
-    .sci {
-        position: relative;
-        display: flex;
-        justify-content: center;
         align-items: center;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .contactForm {
-        padding: 2.5rem;
+        justify-content: center;
     }
 
-    .contactInfo {
-        padding: 2.5rem;
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .sci {
-        margin-top: 4rem;
-    }
-
-    .inputBox50 {
+    .copy {
         width: 100%;
     }
 
-    .btnContainer {
-        margin-bottom: 3rem;
-        padding: 0 2rem;
-        position: relative;
-        left: -16px;
+    
+
+    .socials {
+        margin-top: 2rem;
+    }
+
+    .right {
+        width: 100%;
     }
 }
 
 @media screen and (max-width: 568px) {
     .content {
-        padding: 2rem;
+        padding: 3rem;
+    }
+
+    .heading, .copy {
+        text-align: center;
+    }
+
+    .copy {
+        width: 100%;
+    }
+
+    .iconBox {
+       align-items: center; 
     }
 }
 
@@ -197,11 +210,8 @@
     }
 }
 
-
-
 @media screen and (max-width: 480px) {
-
-     .btnContainer {
-         width: 100%;
-     }
+    .content {
+        padding: 2rem;
+    }
 }
