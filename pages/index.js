@@ -5,6 +5,7 @@ import Misc from "../src/comps/Misc";
 import WhyChooseUs from "../src/comps/WhyChooseUs";
 import Portfolio from "../src/comps/Portfolio";
 import Reviews from "../src/comps/Reviews";
+import ContactSection from "../src/comps/ContactSection";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <WhyChooseUs />
       <Portfolio />
       <Reviews />
+      <ContactSection />
     </div>
   );
 }
