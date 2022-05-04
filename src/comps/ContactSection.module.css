@@ -1,6 +1,6 @@
 .contactSectionContainer {
     margin-bottom: 15rem;
-    background-color: var(--accent3);
+    border: 2px solid var(--accent5)
 }
 
 .content {
@@ -17,48 +17,39 @@
 
 .heading {
     font-family: "TekoRegular";
-    color: var(--accent4);
+    color: var(--accent1);
 }
 
 .heading span {
     font-family: "TekoRegular";
-    color: var(--accent2)
+    color: var(--accent5)
 }
 
 .copy {
     font-family: "MontserratBold";
     font-size: 1.8rem;
-    color: var(--accent4);
+    color: var(--accent1);
+    width: 70%;
 }
 
 .right {
-    flex: 2;
+    flex: 1;
 }
 
 .contactForm {
-    position: relative;
-    padding: 7rem 5rem;
-    background: var(--accent2);
-    color:  var(--accent1);
-}
-
-.contactForm h2 {
-    font-size: 2.4rem;
-    font-weight: 500;
-    
+    position: relative;    
 }
 
 .formBox {
     position: relative;
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding-top: 3rem;
+    flex-direction: column;
+    justify-content: space-between;    
 }
 
 .inputBox50 {
     position: relative;
-    width: 47%;
+    width: 100%;
 }
 
 .inputBox50:nth-child(1),
@@ -89,11 +80,11 @@
     padding: 5px 0;
     font-size: 1.8rem;
     font-weight: 300;
-    color: var(--accent1);
-    background-color: var(--accent2);
+    color: var(--accent4);
+    background-color: var(--accent4);
     border: none;
     outline: none;
-    border-bottom: 1px solid var(--accent1);
+    border-bottom: 1px solid var(--accent5);
 }
 
 .inputBox100 textarea {

@@ -17,8 +17,7 @@ function ContactSection() {
         </div>
         <div className={styles.right}>
           <div className={styles.contactForm}>
-            <h2>Shoot Me A Line</h2>
-            <form className={styles.formBox} onSubmit={(e) => onSubmitForm(e)}>
+            <form className={styles.formBox}>
               <div className={styles.inputBox50}>
                 <input id='name' type='text' required />
                 <label htmlFor='name'>Name</label>
