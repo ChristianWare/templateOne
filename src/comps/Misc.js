@@ -1,5 +1,4 @@
 import styles from "./Misc.module.css";
-import Button from "./utils/Button";
 import Image from "next/image";
 import img1 from "../../public/images/bg.jpg";
 
@@ -20,7 +19,10 @@ function Misc() {
             <h3>Misc Content Here</h3>
             <p lang='en'>
               We are a visulal production company, specializing in ariel drone
-              videography and photography.
+              videography and photography. We are a visulal production company,
+              specializing in ariel drone videography and photography.We are a
+              visulal production company, specializing in ariel drone
+              videography and photography.We are a visulal production company.
             </p>
           </div>
         </div>
