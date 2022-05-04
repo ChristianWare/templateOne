@@ -143,6 +143,10 @@
     .topContainer {
         margin-bottom: 5.5rem;
     }
+
+    .content {
+        padding: 2rem;
+    }
 }
 
 @media screen and (max-width: 328px) {

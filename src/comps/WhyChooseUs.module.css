@@ -63,11 +63,7 @@
     font-size: 1.5rem;
 }
 
-@media screen and (max-width: 768px) {
-    .top::after {
-    width: calc(80% + 50px); 
-}
-    
+@media screen and (max-width: 768px) {    
     .reasonBoxes {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -75,10 +71,6 @@
 }
 
 @media screen and (max-width: 480px) {
-    .top::after {
-    width: calc(90% + 50px); 
-}
-
     .bottom {
         padding: 2rem;
     }
@@ -91,10 +83,4 @@
     .reason p {
         text-align: center;
     }
-}
-
-@media screen and (max-width: 400px) {
-    .top::after {
-    width: calc(100% + 50px); 
-}
 }
