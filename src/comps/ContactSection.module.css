@@ -1,3 +1,36 @@
 .contactSectionContainer {
     margin-bottom: 15rem;
+    background-color: var(--accent3);
+}
+
+.content {
+    padding: 5rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.left {
+    flex: 1;
+}
+
+.heading {
+    font-family: "TekoRegular";
+    color: var(--accent4);
+}
+
+.heading span {
+    font-family: "TekoRegular";
+    color: var(--accent2)
+}
+
+.copy {
+    font-family: "MontserratBold";
+    font-size: 1.8rem;
+    color: var(--accent4);
+    width: 60%;
+}
+
+.right {
+    flex: 1;
 }
