@@ -59,7 +59,7 @@
     align-items: flex-start;
     justify-content: center;
     gap: 2rem;
-    margin-top: 4rem;
+    /* margin-top: 1rem; */
     cursor: pointer;
 }
 
@@ -177,7 +177,7 @@
     
 
     .socials {
-        margin-top: 2rem;
+        margin-top: 1rem;
     }
 
     .right {
