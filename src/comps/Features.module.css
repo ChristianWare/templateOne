@@ -1,0 +1,113 @@
+.featuresContainer {
+    margin-bottom: 15rem;
+}
+
+.content {
+    padding: 5rem;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem
+}
+
+.heading {
+    font-family: "TekoRegular";
+    letter-spacing: 2px;
+    color: var(--accent1);
+    text-align: center;
+}
+
+.copy {
+    color: var(--accent1b);
+    hyphens: auto;
+    width: 80%;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.bottom {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+    margin-top: 3rem;
+}
+
+.bxOne,
+.bxTwo,
+.bxThree,
+.bxFour {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 2rem;
+    width: 100%;
+}
+
+.bottom p {
+    color: var(--accent1b);
+    hyphens: auto;
+    font-size: 1.5rem;
+}
+
+.divide {
+    border: 1px solid var(--accent1);
+    opacity: .2;
+}
+
+.feature {
+    hyphens: auto;
+    color: var(--accent1b);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-family: "TekoRegular";
+    
+}
+
+.icon {
+    color: var(--accent5);
+    font-size: 5rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+
+@media screen and (max-width: 868px) {
+    .copy {
+        width: 100%;
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .content {
+        padding: 3rem;
+    }
+    
+    .heading {
+        width: 100%;
+        text-align: center;
+    }
+
+    .copy {
+        width: 100%;
+        text-align: justify;
+    }
+
+    .btnContainer {
+        width: 100%;
+    }
+
+    .bottom {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .bottom p {
+    color: var(--accent1b);
+    hyphens: auto;
+}
+
+}

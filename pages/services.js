@@ -4,7 +4,7 @@ import BG from "../public/images/bg.jpg";
 import SectionHeader from "../src/comps/SectionHeader";
 import Button from "../src/comps/utils/Button";
 import Image from "next/image";
-import IndvService from "../src/comps/IndvService";
+import Features from "../src/comps/Features";
 
 function services() {
   return (
@@ -80,6 +80,7 @@ function services() {
         </div>
         <div className={styles.right}></div>
       </div>
+      <Features />
     </section>
   );
 }
