@@ -2,6 +2,7 @@ import styles from "./Hero.module.css";
 import Button from "./utils/Button";
 import Image from "next/image";
 import BG from "../../public/images/bg.jpg";
+import Services from "./services";
 
 function Hero() {
   return (
@@ -20,6 +21,7 @@ function Hero() {
           <Button text='Contact Us' />
           <Button text='See Pricing' color='primaryOutline2' />
         </div>
+      <Services />
       </div>
     </section>
   );
