@@ -1,8 +1,6 @@
 import PageIntro from "../src/comps/PageIntro";
 import styles from "../styles/servicesPage.module.css";
 import BG from "../public/images/bg.jpg";
-import SectionHeader from "../src/comps/SectionHeader";
-import Button from "../src/comps/utils/Button";
 import Image from "next/image";
 import Features from "../src/comps/Features";
 

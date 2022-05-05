@@ -3,10 +3,12 @@ import SectionHeader from "./SectionHeader";
 import Nav from "./Nav";
 import NavBarElement from "./NavBarElement";
 import Link from "next/link";
+import ContactSection from './ContactSection'
 
 function Footer() {
   return (
     <>
+    <ContactSection />
       <div className={styles.sectionHeaderContaqiner}>
         <SectionHeader text='call us today!' />
       </div>
