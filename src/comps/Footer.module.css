@@ -1,0 +1,8 @@
+.sectionHeaderContaqiner {
+    position: relative;
+    top: 2px;
+}
+
+.footerBottom {
+    border-top: 2px solid var(--accent5);
+}

@@ -1,11 +1,19 @@
-import styles from './Footer.module.css'
+import styles from "./Footer.module.css";
+import SectionHeader from "./SectionHeader";
+import Nav from './Nav'
+import NavBarElement from "./NavBarElement";
 
 function Footer() {
-    return (
-        <div>
-           <h1>Footer</h1> 
-        </div>
-    )
+  return (
+    <footer className={styles.footerContainer}>
+      <div className={styles.sectionHeaderContaqiner}>
+        <SectionHeader text='call us today!' />
+      </div>
+      <div className={styles.footerBottom}>
+          <NavBarElement />
+      </div>
+    </footer>
+  );
 }
 
-export default Footer
+export default Footer;

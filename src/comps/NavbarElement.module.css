@@ -1,0 +1,134 @@
+.header {
+    color: var(--accent1);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;
+}
+
+.navRight {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navLeft {
+    cursor: pointer;
+    z-index: 999;
+}
+
+.navbarLogo a {
+    font-size: 2.5rem;
+    font-family: "TekoBold";
+    transition: all 200ms ease;
+}
+
+.navmenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navItem {
+    margin-left: 3.5rem;
+    font-size: 2rem;
+    list-style: none;
+    cursor: pointer;
+}
+
+.navItem {
+    margin-left: 3.5rem;
+    font-size: 2rem;
+    list-style: none;
+    cursor: pointer;
+}
+
+.navbarLogo a:hover, .navItem a:hover, .navItem:hover  {
+    color: var(--accent5);
+    transition: all 200ms ease;
+}
+
+.navItem a {
+   font-family: "TekoRegular";
+   transition: all 200ms ease;
+}
+
+.phone {
+    color: var(--accent1);
+}
+
+.phoneNumber {
+    font-family: "TekoRegular";
+    font-size: 4rem;
+}
+
+.phoneNumber:hover .phone {
+    color: var(--accent5);
+    transition: all 200ms ease;
+}
+
+.activeRouter {
+    position: relative;
+    text-transform: uppercase;
+}
+
+.activeRouter a {
+    font-family: "TekoBold";
+}
+
+.activeRouter::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 3px;
+    border-radius: 8px;
+    background-color: var(--accent5);
+}
+
+.hamburger {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 35px;
+    height: 3px;
+    margin: 5px auto;
+    transition: all 0.3s ease-in-out;
+    background-color: var(--accent1);
+}
+
+@media screen and (max-width: 800px) {
+
+    .navbar {
+        align-items: flex-start;
+    }
+
+    .navRight {
+        display: flex;
+        justify-content: flex-end;
+        gap: 3rem
+    }
+
+    .phoneContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .activeRouter::after {
+        height: 5px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+     .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+}
