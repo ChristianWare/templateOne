@@ -1,0 +1,77 @@
+.pageIntroContainer {
+    background-color: var(--accent3);
+    position: relative;
+    margin-bottom: 15rem;
+}
+
+.content {
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.imgContainer {
+    z-index: 2;
+    position: absolute;
+    height: 100%;
+    width:100%;
+    background: linear-gradient(to bottom, rgb(123, 8, 255, 0.2), rgb(123, 8, 255, 0.8));
+    /* background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)); */
+}
+
+.img {
+    z-index: 1;
+}
+
+.heading {
+    font-family: "TekoRegular";
+    font-size: 6rem;
+    color: var(--accent2);
+    text-align: center;
+    line-height: 1;
+    z-index: 3;
+}
+
+.heading span {
+    font-family: "TekoRegular";
+    color: var(--accent2); 
+}
+
+.copy {
+    width: 60%;
+    color: var(--accent4);
+    font-family: "TekoLight";
+    letter-spacing: .8px;
+    text-align: center;
+    font-size: 3rem;
+    z-index: 3;
+    margin-top: -2rem;
+}
+
+
+@media screen and (max-width: 868px) {
+    .content {
+        gap: 2rem
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .copy {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .content {
+        padding: 3rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .content {
+        padding: 2rem;
+    }
+}
