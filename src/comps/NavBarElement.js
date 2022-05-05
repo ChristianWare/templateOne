@@ -3,20 +3,33 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import Phone from "../../public/icons/phone.svg";
 import Plane from "../../public/icons/plane.svg";
+import FB from "../../public/icons/facebook.svg";
+import IG from "../../public/icons/instagram.svg";
+import LI from "../../public/icons/linkedin.svg";
+import YT from "../../public/icons/youtube.svg";
 
 function NavBarElement() {
   const router = useRouter();
 
   return (
-    <header className={styles.header}>
+    <section className={styles.header}>
       <div className={styles.navbar}>
-        <Link href='/' passHref>
-          <div className={styles.navLeft}>
-            <span className={styles.navbarLogo}>
-              <a title='Company Name'>LOGO</a>
-            </span>
+        <div className={styles.navLeft}>
+          <span className={styles.navbarLogo}>
+            <a title='Company Name'>LOGO</a>
+          </span>
+          <small className={styles.copy} lang='en'>
+            We are a visulal production company, specializing in ariel drone
+            videography and photography.We are a visulal production company,
+            specializing in ariel drone videography and photography.
+          </small>
+          <div className={styles.socials}>
+            <FB className={styles.socialIcon} />
+            <IG className={styles.socialIcon} />
+            <LI className={styles.socialIcon} />
+            <YT className={styles.socialIcon} />
           </div>
-        </Link>
+        </div>
         <div className={styles.navRight}>
           <ul className={styles.navmenu}>
             <li
@@ -73,7 +86,8 @@ function NavBarElement() {
           </ul>
         </div>
       </div>
-    </header>
+      <div className={styles.copyrightContainer}></div>
+    </section>
   );
 }
 

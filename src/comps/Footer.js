@@ -1,18 +1,37 @@
 import styles from "./Footer.module.css";
 import SectionHeader from "./SectionHeader";
-import Nav from './Nav'
+import Nav from "./Nav";
 import NavBarElement from "./NavBarElement";
+import Link from "next/link";
 
 function Footer() {
   return (
-    <footer className={styles.footerContainer}>
+    <>
       <div className={styles.sectionHeaderContaqiner}>
         <SectionHeader text='call us today!' />
       </div>
-      <div className={styles.footerBottom}>
+      <footer className={styles.footerContainer}>
+        <div className={styles.footerBottom}>
           <NavBarElement />
-      </div>
-    </footer>
+          <div className={styles.copyRightContainer}>
+            <small>
+              Company Name {new Date().getFullYear()} &copy; - All Rights
+              Reserved || Designed and Developed by{" "}
+              <Link href='https://www.fontsandfooters.com/' passHref>
+                <a target='_blank'>Fonts & Footers</a>
+              </Link>{" "}
+              ||{" "}
+              <Link
+                href='https://www.fontsandfooters.com/sitemap-0.xml'
+                passHref
+              >
+                <a target='_blank'>Sitemap</a>
+              </Link>
+            </small>
+          </div>
+        </div>
+      </footer>
+    </>
   );
 }
 

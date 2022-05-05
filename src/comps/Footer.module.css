@@ -1,8 +1,39 @@
 .sectionHeaderContaqiner {
     position: relative;
-    top: 2px;
+    top: 35px;
+}
+
+.footerContainer {
+    background-color: var(--accent5);
+    padding: 5rem 5rem 0 5rem;
 }
 
 .footerBottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem
+}
+
+.copyRightContainer {
+    width: 100%;
     border-top: 2px solid var(--accent5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.copyRightContainer small, .copyRightContainer a {
+    text-align: center;
+    color: var(--accent4);
+}
+
+@media screen and (max-width: 480px) {
+    .footerContainer {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-bottom: 1rem;
+    }
 }
