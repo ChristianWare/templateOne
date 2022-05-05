@@ -1,0 +1,75 @@
+.content {
+    padding: 5rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 25rem;
+    position: relative;
+}
+
+.content:nth-child(3) {
+    flex-direction: row-reverse;
+}
+
+.imgOverlay {
+    z-index: 1;
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 100%;
+    width:100%;
+    background: linear-gradient(to bottom, rgb(123, 8, 255, 0.2), rgb(123, 8, 255, 0.8));
+}
+
+.left, .right {
+    flex: 1;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1rem;
+  padding: 5rem;
+  background-color: var(--accent2);
+  position: relative;
+  z-index: 1;
+  top: 20rem
+}
+
+.left h2 {
+    font-family: "TekoRegular";
+}
+
+.left h3 {
+    font-family: "TekoSemiBold";
+}
+
+@media screen and (max-width: 968px) {
+    .content {
+        flex-direction: column;
+        margin-bottom: 15rem;
+    }
+
+    .content:nth-child(3) {
+        flex-direction: column-reverse;
+        margin-bottom: 15rem;
+    }
+
+    .left {
+        top: 0rem
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .content {
+        padding: 3rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .content {
+        padding: 2rem;
+    }
+}

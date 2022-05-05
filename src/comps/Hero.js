@@ -7,8 +7,8 @@ import Services from "./services";
 function Hero() {
   return (
     <section className={styles.heroContainer}>
-      <div className={styles.imgContainer}></div>
-      <Image src={BG} layout='fill' objectFit='cover' className={styles.img} />
+      <div className={styles.imgOverlay}></div>
+      <Image src={BG} layout='fill' objectFit='cover' />
       <div className={styles.content}>
         <h1 className={styles.heading}>
           From Eye Level <br /> to <span>Sky Level</span>
@@ -21,7 +21,7 @@ function Hero() {
           <Button text='Contact Us' />
           <Button text='See Pricing' color='primaryOutline2' />
         </div>
-      <Services />
+        <Services />
       </div>
     </section>
   );

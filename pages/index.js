@@ -6,6 +6,7 @@ import WhyChooseUs from "../src/comps/WhyChooseUs";
 import Portfolio from "../src/comps/Portfolio";
 import Reviews from "../src/comps/Reviews";
 import ContactSection from "../src/comps/ContactSection";
+import IndvService from "../src/comps/IndvService";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Hero />
       {/* <Services /> */}
       <AboutSection />
+      {/* <IndvService text='Our Mission' side='right' /> */}
       <Misc />
       <WhyChooseUs />
       <Portfolio />
