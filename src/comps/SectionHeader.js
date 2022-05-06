@@ -1,10 +1,10 @@
 import styles from "./SectionHeader.module.css";
 
-function SectionHeader({ text, side="left" }) {
+function SectionHeader({ text, side = "left", outlineText = "outlineTextLeft" }) {
   return (
     <div className={styles.sectionHeaderContainer}>
       <div className={`${styles[side]}`}>
-        <h2 className={styles.sectionHeading}>{text}</h2>
+        <p className={`${styles[outlineText]}`}>{text}</p>
       </div>
     </div>
   );

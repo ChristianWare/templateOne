@@ -10,7 +10,7 @@ function Footer() {
     <>
     <ContactSection />
       <div className={styles.sectionHeaderContaqiner}>
-        <SectionHeader text='call us today!' />
+        <SectionHeader text='call now!' />
       </div>
       <footer className={styles.footerContainer}>
         <div className={styles.footerBottom}>

@@ -5,7 +5,11 @@ import SectionHeader from "./SectionHeader";
 function WhyChooseUs() {
   return (
     <div className={styles.wcuContainer}>
-      <SectionHeader text='why choose us' side='right' />
+      <SectionHeader
+        text='why us?'
+        side='right'
+        outlineText='outlineTextRight'
+      />
       <div className={styles.bottom}>
         <div className={styles.reasonBoxes}>
           <div className={styles.reason}>

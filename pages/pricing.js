@@ -12,6 +12,7 @@ function pricing() {
         heading='Pricing Page'
         copy='Our pricies are the most affordable in the business. You can pay on a monthly basis, or annually to save 30%. Feel free to call us if you have any questions.'
       />
+      <SectionHeader text='Our plans' />
       <div className={styles.content}>
         <div className={styles.prices}>
           <div className={styles.plan}>
@@ -63,7 +64,7 @@ function pricing() {
             </div>
           </div>
         </div>
-        <SectionHeader text="FAQ's" />
+        <SectionHeader text="Questions?" side='right' outlineText='outlineTextRight' />
         <FAQs />
       </div>
     </section>

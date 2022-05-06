@@ -7,7 +7,11 @@ import Star from "./utils/Star";
 function Reviews() {
   return (
     <div className={styles.reviewsContainer}>
-      <SectionHeader text='Reviews' side='right' />
+      <SectionHeader
+        text='Reviews'
+        side='right'
+        outlineText='outlineTextRight'
+      />
       <div className={styles.content}>
         <div className={styles.reviewBoxes}>
           <div className={styles.review}>

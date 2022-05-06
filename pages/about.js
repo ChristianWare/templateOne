@@ -16,7 +16,11 @@ function about() {
       />
       <div className={styles.content}>
         <IndvService text='our Mission' heading='Deliver Greatness' />
-        <SectionHeader text='Our Leader' side='right' />
+        <SectionHeader
+          text='Our Leader'
+          side='right'
+          outlineText='outlineTextRight'
+        />
         <div className={styles.leaderContainer}>
           <div className={styles.leaderInfo}>
             <div className={styles.top}>
@@ -82,7 +86,11 @@ function about() {
             </p>
           </div>
         </div>
-        <SectionHeader text="FAQ's" side='right' />
+        <SectionHeader
+          text="questions?"
+          side='right'
+          outlineText='outlineTextRight'
+        />
         <FAQsection />
       </div>
     </section>

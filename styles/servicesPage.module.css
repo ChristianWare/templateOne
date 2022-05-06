@@ -7,10 +7,6 @@
     position: relative;
 }
 
-.content:nth-child(3) {
-    flex-direction: row-reverse; 
-}
-
 .imgOverlay {
     z-index: 1;
     top: 0;
@@ -36,7 +32,6 @@
   color: var(--accent1);
   position: relative;
   z-index: 1;
-  /* top: 20rem */
 }
 
 .left h2 {
