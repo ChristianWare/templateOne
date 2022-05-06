@@ -15,7 +15,7 @@ function Hero() {
         </h1>
         <h2 className={styles.copy}>
           We are a visulal production company, specializing in ariel drone
-          videography and photography. We are a visulal production company.
+          videography and photography.
         </h2>
         <div className={styles.btnContainer}>
           <Button text='Contact Us' />
