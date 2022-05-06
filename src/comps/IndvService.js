@@ -4,13 +4,13 @@ import Button from './utils/Button';
 import Image from 'next/image'
 import img1 from '../../public/images/bg.jpg'
 
-function IndvService({ text, side }) {
+function IndvService({ text, side, direction='normal', heading }) {
     return (
       <section className={styles.aboutSectionContainer}>
         <SectionHeader text={text} side={side} />
-        <div className={styles.bottom}>
+        <div className={styles[direction]}>
           <div className={styles.bottomLeft}>
-            <h3>Service 1 Description</h3>
+            <h3>{heading}</h3>
             <p lang='en'>
               We are a visulal production company, specializing in ariel drone
               videography and photography. We are a visulal production company,

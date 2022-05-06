@@ -27,9 +27,18 @@
     font-family: "TekoRegular";
 }
 
-.bottom {
+.normal {
     padding: 5rem;
     display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.reverse {
+    padding: 5rem;
+    display: flex;
+    flex-direction: row-reverse;
     align-items: flex-start;
     justify-content: center;
     gap: 3rem;
@@ -91,7 +100,7 @@
 }
 
 @media screen and (max-width: 768px) {
-    .bottom {
+    .normal, .reverse {
         flex-direction: column;
         align-items: center;
     }
@@ -106,7 +115,7 @@
 }
 
 @media screen and (max-width: 630px) {
-    .bottom {
+    .normal, .reverse {
         padding: 2rem;
     }
 

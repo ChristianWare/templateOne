@@ -1,9 +1,5 @@
-/* .servicesContainer {
-    margin-bottom: 15rem;
-} */
-
 .servicesBoxes {
-    padding: 0rem calc(10vw - 5rem);
+    /* padding: 0rem calc(10vw - 5rem); */
     display: flex;
     align-items: flex-start;
     justify-content: center;
