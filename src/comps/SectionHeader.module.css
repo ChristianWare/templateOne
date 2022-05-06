@@ -57,49 +57,37 @@
     position: absolute;
     z-index: -1;
     top: 0;
-    left: -130px;
+    left: -95px;
     width: 160%;
     height: 100%;
     background-color: var(--accent2);
     clip-path: polygon(100% 0%, 100% 100%, 0% 100%, 20% 0%);
 }
 
-@media screen and (max-width: 768px) {
-    .left::after {
-        width: 70%; 
+@media screen and (max-width: 500px) {
+    .outlineTextLeft, .outlineTextRight {
+        font-size: 8rem;
     }
-    
-    .right::after {
-        width: 70%; 
+
+    .outlineTextRight::after {
+        left: -50px;
+        width: 120%;
     }
 }
 
-@media screen and (max-width: 600px) {
-    .left::after {
-        width: 80%; 
-    }
-    
-    .right::after {
-        width: 80%; 
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .left::after {
-        width: calc(90% + 60px); 
-    }
-    
-    .right::after {
-        width: calc(90% + 60px); 
-    }
-}
 
 @media screen and (max-width: 400px) {
-    .left::after {
-        width: calc(100% + 60px); 
+    .outlineTextLeft, .outlineTextRight {
+        font-size: 7rem;
     }
-    
-    .right::after {
-        width: calc(100% + 60px); 
+
+    .outlineTextLeft::after {
+        left: 0px;
+        width: 120%;
+    }
+
+    .outlineTextRight::after {
+        left: -35px;
+        width: 120%;
     }
 }
