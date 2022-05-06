@@ -1,0 +1,41 @@
+.questionContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+    border: 1px dotted var(--accent4);
+    padding: 2rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+
+.questionContainer:hover, .active {
+    background-color: var(--accent1);
+    border-color: var(--accent4);
+    color: var(--accent1);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.question {
+    font-family: "TekoRegular";
+    color: var(--accent4);
+}
+
+.btn {
+    font-size: 3rem;
+    cursor: pointer;
+    margin-left: 1rem;
+    color: var(--accent4);
+}
+
+.answer {
+    hyphens: auto;
+    color: var(--accent4);
+}

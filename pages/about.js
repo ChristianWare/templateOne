@@ -4,6 +4,7 @@ import BG from "../public/images/bg.jpg";
 import IndvService from "../src/comps/IndvService";
 import SectionHeader from "../src/comps/SectionHeader";
 import Image from "next/image";
+import FAQsection from "../src/comps/FAQs";
 
 function about() {
   return (
@@ -82,6 +83,7 @@ function about() {
           </div>
         </div>
         <SectionHeader text="FAQ's" side='right' />
+        <FAQsection />
       </div>
     </section>
   );

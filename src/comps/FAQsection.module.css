@@ -1,0 +1,79 @@
+.sectionContainer {
+    margin-bottom: 15rem;
+}
+
+.content {
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem; 
+}
+
+.heading {
+    font-family: "TekoRegular";
+    text-align: center;
+    color: var(--accent1);
+}
+
+.leftRightContainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: var(--accent5);
+    padding: 5rem;
+    position: relative;
+}
+
+.leftRightContainer::after {
+    position: absolute;
+    bottom: 0;
+    right: -20px;
+    width: 20px;
+    height: 250px;
+    background: var(--accent3);
+    content: '';
+}
+
+.leftRightContainer::before {
+    position: absolute;
+    bottom: -20px;
+    right: -20px;
+    width: 250px;
+    height: 20px;
+    background: var(--accent3);
+    content: '';
+}
+
+.right {
+    flex: 1;
+}
+
+.info {
+    padding: 3rem;
+}
+
+@media screen and (max-width: 968px) {
+  .leftRightContainer {
+      flex-direction: column;
+  }
+
+.imgContainer {
+    padding-right: 0rem;
+}
+
+.imgContainer::after {
+    width: 0%;
+    height: 0%;
+}
+
+.info {
+    padding: 0rem;
+    padding-top: 3rem;
+ }
+}
+
+@media screen and (max-width: 568px) {
+    .content {
+        padding: 1rem;
+    }
+}
