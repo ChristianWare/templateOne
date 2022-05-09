@@ -29,9 +29,18 @@
     align-items: center;
 }
 
-.img {
+.imgContainer {
+    position: relative;
     border-radius: 50%;
+    overflow: hidden;
+    font-size: 0;
+    border: 3px solid var(--accent5);
+
 }
+
+/* .img {
+    border-radius: 50%;
+} */
 
 .review:nth-child(2) {
     margin-top: 10rem;

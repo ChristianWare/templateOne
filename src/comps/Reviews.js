@@ -15,7 +15,14 @@ function Reviews() {
       <div className={styles.content}>
         <div className={styles.reviewBoxes}>
           <div className={styles.review}>
-            <Image src={img1} width='100' height='100' className={styles.img} />
+            <div className={styles.imgContainer}>
+              <Image
+                src={img1}
+                width='200'
+                height='200'
+                className={styles.img}
+              />
+            </div>
             <h3>Review 1</h3>
             <Star />
             <p>
@@ -24,7 +31,14 @@ function Reviews() {
             </p>
           </div>
           <div className={styles.review}>
-            <Image src={img1} width='100' height='100' className={styles.img} />
+            <div className={styles.imgContainer}>
+              <Image
+                src={img1}
+                width='200'
+                height='200'
+                className={styles.img}
+              />
+            </div>
             <h3>Review 2</h3>
             <Star />
             <p>
@@ -33,7 +47,14 @@ function Reviews() {
             </p>
           </div>
           <div className={styles.review}>
-            <Image src={img1} width='100' height='100' className={styles.img} />
+            <div className={styles.imgContainer}>
+              <Image
+                src={img1}
+                width='200'
+                height='200'
+                className={styles.img}
+              />
+            </div>
             <h3>Review 3</h3>
             <Star />
             <p>
@@ -42,7 +63,14 @@ function Reviews() {
             </p>
           </div>
           <div className={styles.review}>
-            <Image src={img1} width='100' height='100' className={styles.img} />
+            <div className={styles.imgContainer}>
+              <Image
+                src={img1}
+                width='200'
+                height='200'
+                className={styles.img}
+              />
+            </div>
             <h3>Review 4</h3>
             <Star />
             <p>
