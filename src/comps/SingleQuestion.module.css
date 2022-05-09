@@ -10,6 +10,10 @@
     transition: all 0.2s ease-in;
 }
 
+.questionContainer:nth-child(5) {
+    margin-bottom: 0rem;
+}
+
 .questionContainer:hover, .active {
     background-color: var(--accent1);
     border-color: var(--accent4);
