@@ -17,7 +17,6 @@
     background-color: var(--accent2);
     margin-top: 5rem;
     position: relative;
-    /* z-index: 1; */
 }
 
 .leaderInfo::after {

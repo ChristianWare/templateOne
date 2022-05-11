@@ -1,9 +1,7 @@
 import React, { useState } from "react";
-import Image from "next/image";
 import styles from "./FAQsection.module.css";
 import data from './data'
 import SingleQuestion from "./SingleQuestion";
-import BG from '../../public/images/bg.jpg'
 
 
 function FAQsection() {
