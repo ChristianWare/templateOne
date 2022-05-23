@@ -7,7 +7,7 @@ import img1 from "../../public/images/bg.jpg";
 function Portfolio() {
   return (
     <div className={styles.portfolioContainer}>
-      <SectionHeader text='Our Work' />
+      <SectionHeader text="Our Work" />
       <div className={styles.content}>
         <div className={styles.boxContainer}>
           <div className={styles.box1}>

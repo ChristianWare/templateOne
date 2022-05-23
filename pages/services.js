@@ -26,8 +26,8 @@ function services() {
           <h2>Service #1</h2>
           <p>
             We are a visulal production company, specializing in ariel drone
-            videography and photography. We are a visulal production company,
-     0       specializing in ariel drone videography and photography.
+            videography and photography. We are a visulal production company, 0
+            specializing in ariel drone videography and photography.
           </p>
           <h3>
             We are a visulal production company, specializing in ariel drone
