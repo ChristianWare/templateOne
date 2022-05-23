@@ -1,16 +1,16 @@
 .servicesBoxes {
-    /* padding: 0rem calc(10vw - 5rem); */
     display: flex;
     align-items: flex-start;
     justify-content: center;
     position: relative;
+    gap: 3rem;
     z-index: 2;
 }
 
 .bx1 {
     padding: 3rem 4rem;
-    background-color: var(--accent2);
-    color: var(--accent1);
+    border: 2px solid var(--accent2);
+    color: var(--accent2);
     position: relative;
 }
 
@@ -39,8 +39,8 @@
 }
 
 .bx1:nth-child(2) {
-    background-color: var(--accent1);
-    color: var(--accent4);
+    background-color: var(--accent2);
+    color: var(--accent1);
     z-index: 10;
 }
 
@@ -59,7 +59,7 @@
     font-family: "TekoRegular";
 }
 
-@media screen and (max-width: 868px) {
+@media screen and (max-width: 968px) {
     .servicesBoxes {
         flex-direction: column;
         align-items: center;

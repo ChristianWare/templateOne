@@ -1,6 +1,5 @@
 import styles from "./Footer.module.css";
 import SectionHeader from "./SectionHeader";
-import Nav from "./Nav";
 import NavBarElement from "./NavBarElement";
 import Link from "next/link";
 import ContactSection from './ContactSection'
