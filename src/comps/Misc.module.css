@@ -1,5 +1,6 @@
 .miscContainer {
     margin-bottom: 15rem;
+    /* filter: url('#goo'); */
 }
 
 .content {
@@ -30,6 +31,7 @@
     position: absolute;
     top: 0;
     left: 0;
+    /* filter: url('#goo'); */
 }
 
 .infoBox {
