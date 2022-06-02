@@ -1,6 +1,6 @@
 import styles from './IndvService.module.css'
-import SectionHeader from './SectionHeader';
-import Button from './utils/Button';
+import SectionHeader from '../../SectionHeader';
+import Button from '../button/Button';
 import Image from 'next/image'
 import img1 from '../../public/images/bg.jpg'
 

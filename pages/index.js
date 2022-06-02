@@ -1,9 +1,9 @@
 import Hero from "../src/comps/Hero";
-import AboutSection from "../src/comps/AboutSection";
-import Misc from "../src/comps/Misc";
-import WhyChooseUs from "../src/comps/WhyChooseUs";
-import Portfolio from "../src/comps/Portfolio";
-import Reviews from "../src/comps/Reviews";
+import AboutSection from "../src/comps/aboutSection/AboutSection";
+import Misc from "../src/misc/Misc";
+import WhyChooseUs from "../src/why/WhyChooseUs";
+import Portfolio from "../src/portfolio/Portfolio";
+import Reviews from "../src/reviews/Reviews";
 
 export default function Home() {
   return (

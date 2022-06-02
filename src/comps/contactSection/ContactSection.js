@@ -1,12 +1,12 @@
 import styles from "./ContactSection.module.css";
-import Button from "./utils/Button";
+import Button from "../utils/button/Button";
 import Phone from '../../public/icons/phone.svg'
 import Plane from '../../public/icons/plane.svg'
 import FB from '../../public/icons/facebook.svg'
 import IG from '../../public/icons/instagram.svg'
 import LI from '../../public/icons/linkedin.svg'
 import YT from '../../public/icons/youtube.svg'
-import SectionHeader from '../comps/SectionHeader'
+import SectionHeader from '../SectionHeader'
 
 function ContactSection() {
   return (

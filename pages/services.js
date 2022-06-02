@@ -2,7 +2,7 @@ import PageIntro from "../src/comps/PageIntro";
 import styles from "../styles/servicesPage.module.css";
 import BG from "../public/images/bg.jpg";
 import Image from "next/image";
-import Features from "../src/comps/Features";
+import Features from "../src/features/Features";
 import SectionHeader from "../src/comps/SectionHeader";
 
 function services() {
@@ -14,7 +14,7 @@ function services() {
         copy='Here are a list of the services that we provide. You will also find information on the features that come with each service. If you have any questions feel free to reach out to us at any time.'
       />
       <SectionHeader text='Service 0ne' />
-      <div className={styles.content}>
+      <article className={styles.content}>
         <div className={styles.imgOverlay}></div>
         <Image
           src={BG}
@@ -34,8 +34,7 @@ function services() {
             videography.
           </h3>
         </div>
-        <div className={styles.right}></div>
-      </div>
+      </article>
 
       <SectionHeader
         text='Service Two'

@@ -1,5 +1,5 @@
 import styles from "./Portfolio.module.css";
-import SectionHeader from "./SectionHeader";
+import SectionHeader from "../comps/SectionHeader";
 import Image from "next/image";
 import Link from "next/link";
 import img1 from "../../public/images/bg.jpg";

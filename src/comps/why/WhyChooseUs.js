@@ -1,6 +1,6 @@
 import styles from "./WhyChooseUs.module.css";
 import Plane from "../../public/icons/plane.svg";
-import SectionHeader from "./SectionHeader";
+import SectionHeader from "../comps/SectionHeader";
 
 function WhyChooseUs() {
   return (

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styles from "./FAQsection.module.css";
-import data from './data'
-import SingleQuestion from "./SingleQuestion";
+import data from '../comps/data'
+import SingleQuestion from "../comps/SingleQuestion";
 
 
 function FAQsection() {
