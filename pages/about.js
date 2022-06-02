@@ -1,8 +1,8 @@
 import styles from "../styles/about.module.css";
-import PageIntro from "../src/comps/PageIntro";
+import PageIntro from "../src/comps/utils/pageIntro/PageIntro";
 import BG from "../public/images/bg.jpg";
 import IndvService from "../src/comps/IndvService";
-import SectionHeader from "../src/comps/SectionHeader";
+import SectionHeader from "../src/comps/utils/sectionHeader/SectionHeader";
 import Image from "next/image";
 import FAQsection from "../src/comps/FAQs";
 

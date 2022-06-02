@@ -1,5 +1,5 @@
 import styles from './Features.module.css'
-import Plane from '../../public/icons/plane.svg'
+import Plane from '../../../public/icons/plane.svg'
 
 function Features() {
   return (

@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import Link from "next/link";
 import styles from "./Nav.module.css";
-import Phone from "../../public/icons/phone.svg";
-import Plane from "../../public/icons/plane.svg";
+import Phone from "../../../public/icons/phone.svg";
+import Plane from "../../../public/icons/plane.svg";
 
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);

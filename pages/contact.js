@@ -1,5 +1,5 @@
 import styles from '../styles/contact.module.css'
-import PageIntro from "../src/comps/PageIntro";
+import PageIntro from "../src/comps/utils/pageIntro/PageIntro";
 import BG from "../public/images/bg.jpg";
 
 function contact() {

@@ -2,7 +2,7 @@ import "../styles/globals.css";
 import "../styles/fontStyles.css";
 // import Script from "next/script";
 import Head from "next/head";
-import Layout from '../src/comps/Layout'
+import Layout from '../src/comps/layout/Layout'
 
 function MyApp({ Component, pageProps }) {
   return (

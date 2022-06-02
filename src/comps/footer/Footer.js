@@ -1,8 +1,8 @@
 import styles from "./Footer.module.css";
-import SectionHeader from "../comps/SectionHeader";
-import NavBarElement from "../comps/NavBarElement";
+import SectionHeader from "../utils/sectionHeader/SectionHeader";
+import NavBarElement from "../utils/navbarElement/NavBarElement";
 import Link from "next/link";
-import ContactSection from './ContactSection'
+import ContactSection from '../contactSection/ContactSection'
 
 function Footer() {
   return (

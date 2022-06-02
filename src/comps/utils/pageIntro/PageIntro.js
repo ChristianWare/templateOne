@@ -1,7 +1,6 @@
 import styles from './PageIntro.module.css'
 import Image from "next/image";
-import BG from "../../public/images/bg.jpg";
-import Services from "../services/Services";
+import Services from "../../services/Services";
 
 function PageIntro({ src = "/public/images/bg.jpg", heading, copy }) {
   return (

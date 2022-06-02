@@ -1,12 +1,12 @@
 import styles from "./NavbarElement.module.css";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import Phone from "../../public/icons/phone.svg";
-import Plane from "../../public/icons/plane.svg";
-import FB from "../../public/icons/facebook.svg";
-import IG from "../../public/icons/instagram.svg";
-import LI from "../../public/icons/linkedin.svg";
-import YT from "../../public/icons/youtube.svg";
+import Phone from "../../../../public/icons/phone.svg";
+import Plane from "../../../../public/icons/plane.svg";
+import FB from "../../../../public/icons/facebook.svg";
+import IG from "../../../../public/icons/instagram.svg";
+import LI from "../../../../public/icons/linkedin.svg";
+import YT from "../../../../public/icons/youtube.svg";
 
 function NavBarElement() {
   const router = useRouter();
