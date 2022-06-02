@@ -35,11 +35,11 @@ function about() {
               </p>
             </div>
             <div className={styles.imgContainer}>
-              <Image src={BG} layout='fill' objectFit='cover' />
+              <Image src={BG} layout='fill' objectFit='cover' className={styles.img} />
             </div>
           </div>
         </div>
-        <SectionHeader text='Our Team' side='left' />
+        <SectionHeader text='Our Team' side='center' />
         <div className={styles.team}>
           <div className={styles.ee}>
             <div className={styles.eeImageContainer}>
@@ -86,11 +86,6 @@ function about() {
             </p>
           </div>
         </div>
-        <SectionHeader
-          text="questions?"
-          side='right'
-          outlineText='outlineTextRight'
-        />
         <FAQsection />
       </div>
     </section>

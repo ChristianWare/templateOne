@@ -19,6 +19,14 @@
     z-index: 1;
 }
 
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
 .outlineTextLeft {
     font-family: "TekoRegular";
     text-transform: uppercase;
