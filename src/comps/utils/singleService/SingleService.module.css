@@ -1,0 +1,113 @@
+.content {
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 25rem;
+    position: relative;
+}
+
+.flexEnd {
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.flexStart {
+    justify-content: flex-start;
+}
+
+.imgOverlay {
+    z-index: 1;
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 100%;
+    width:100%;
+    background: linear-gradient(to bottom, rgb(123, 8, 255, 0.2), rgb(123, 8, 255, 0.8));
+}
+
+.headingCopyContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1rem;
+  padding: 5rem;
+  background-color: var(--accent2);
+  color: var(--accent1);
+  position: relative;
+  width: 60%;
+  z-index: 1;
+}
+
+.left {
+    clip-path: polygon(0% 30%, 20% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.right {
+    clip-path: polygon(80% 0%, 100% 35%, 100% 100%, 0% 100%, 0% 0%);
+    align-items: flex-end;
+
+}
+
+.heading {
+    font-family: "TekoRegular";
+    width: 100%;
+    text-align: center;
+}
+
+.copy {
+    hyphens: auto;
+}
+
+.btnContainer {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 3rem;
+    width: 100%;
+}
+
+.btnLeft {
+    justify-content: flex-start;
+}
+
+.btnRight {
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 968px) {
+    .content {
+        flex-direction: column;
+        margin-bottom: 15rem;
+    }
+
+    .content:nth-child(3) {
+        flex-direction: column-reverse;
+        margin-bottom: 15rem;
+    }
+
+    .headingCopyContainer {
+        top: 0rem;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .content {
+        padding: 3rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .btnContainer {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .content {
+        padding: 2rem;
+    }
+}
