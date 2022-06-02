@@ -1,8 +1,8 @@
 import styles from "./Reviews.module.css";
 import SectionHeader from "../utils/sectionHeader/SectionHeader";
-import img1 from "../../public/images/bg.jpg";
+import img1 from "../../../public/images/bg.jpg";
 import Image from "next/image";
-import Star from "../comps/utils/Star";
+import Star from "../utils/star/Star";
 
 function Reviews() {
   return (

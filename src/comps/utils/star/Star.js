@@ -1,5 +1,5 @@
 import styles from './Star.module.css'
-import StarIcon from '../../../public/icons/star.svg'
+import StarIcon from "../../../../public/icons/star.svg";
 
 function Star() {
     return (

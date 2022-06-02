@@ -1,7 +1,7 @@
 import Hero from "../src/comps/hero/Hero";
 import AboutSection from "../src/comps/aboutSection/AboutSection";
-import Misc from "../src/misc/Misc";
-import WhyChooseUs from "../src/why/WhyChooseUs";
+import Misc from "../src/comps/misc/Misc";
+import WhyChooseUs from "../src/comps/why/WhyChooseUs";
 import Portfolio from "../src/comps/portfolio/Portfolio";
 import Reviews from "../src/comps/reviews/Reviews";
 

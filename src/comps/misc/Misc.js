@@ -1,6 +1,6 @@
 import styles from "./Misc.module.css";
 import Image from "next/image";
-import img1 from "../../public/images/bg.jpg";
+import img1 from "../../../public/images/bg.jpg";
 
 function Misc() {
   return (

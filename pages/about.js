@@ -1,10 +1,10 @@
 import styles from "../styles/about.module.css";
 import PageIntro from "../src/comps/utils/pageIntro/PageIntro";
 import BG from "../public/images/bg.jpg";
-import IndvService from "../src/comps/IndvService";
+import IndvService from "../src/comps/utils/indvService/IndvService";
 import SectionHeader from "../src/comps/utils/sectionHeader/SectionHeader";
 import Image from "next/image";
-import FAQsection from "../src/comps/FAQs";
+import FAQsection from "../src/comps/faqs/FAQs";
 
 function about() {
   return (

@@ -1,8 +1,8 @@
 import styles from "./Hero.module.css";
-import Button from "./utils/Button";
+import Button from "../utils/button/Button";
 import Image from "next/image";
-import BG from "../../public/images/bg.jpg";
-import Services from "./services";
+import BG from "../../../public/images/bg.jpg";
+import Services from "../services/Services";
 
 function Hero() {
   return (

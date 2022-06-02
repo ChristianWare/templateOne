@@ -2,7 +2,7 @@ import styles from "../styles/pricing.module.css";
 import PageIntro from "../src/comps/utils/pageIntro/PageIntro";
 import BG from "../public/images/bg.jpg";
 import SectionHeader from "../src/comps/utils/sectionHeader/SectionHeader";
-import FAQs from '../src/comps/FAQs'
+import FAQs from '../src/comps/faqs/FAQs'
 
 function pricing() {
   return (
