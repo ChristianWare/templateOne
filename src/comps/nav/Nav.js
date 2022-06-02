@@ -75,12 +75,12 @@ function Nav() {
             </li>
             <li
               className={`${styles.navItem} ${
-                router.pathname === "/pricing" ? styles.activeRouter : ""
+                router.pathname === "/gallery" ? styles.activeRouter : ""
               }`}
             >
-              <Link href='/pricing' passHref>
-                <a title='Pricing Page' onClick={openMenu}>
-                  Pricing
+              <Link href='/gallery' passHref>
+                <a title='Gallery Page' onClick={openMenu}>
+                  Gallery
                 </a>
               </Link>
             </li>

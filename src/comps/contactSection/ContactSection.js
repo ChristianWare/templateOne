@@ -11,7 +11,11 @@ import SectionHeader from "../utils/sectionHeader/SectionHeader";
 function ContactSection() {
   return (
     <>
-      <SectionHeader text='Contact Us' />
+      <SectionHeader
+        text='Contact Us'
+        side='right'
+        outlineText='outlineTextRight'
+      />
       <section className={styles.contactSectionContainer}>
         <div className={styles.content}>
           <div className={styles.left}>
