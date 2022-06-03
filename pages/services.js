@@ -11,7 +11,7 @@ function services() {
     <section>
       <PageIntro
         src={BG}
-        heading='Services Page'
+        heading='what we do'
         copy='Here are a list of the services that we provide. You will also find information on the features that come with each service. If you have any questions feel free to reach out to us at any time.'
       />
       <SingleService

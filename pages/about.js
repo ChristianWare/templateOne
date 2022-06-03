@@ -11,7 +11,7 @@ function about() {
     <section>
       <PageIntro
         src={BG}
-        heading='About Page'
+        heading='Who We Are'
         copy='Want to learn more about who we are? Our About page will introduce you to our leader and our wonderful team. Call us today!'
       />
       <div className={styles.content}>

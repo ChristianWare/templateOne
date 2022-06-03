@@ -28,7 +28,8 @@
 
 .heading {
     font-family: "TekoRegular";
-    font-size: 8rem;
+    font-size: 10rem;
+    text-transform: uppercase;
     color: var(--accent2);
     text-align: center;
     line-height: 1;

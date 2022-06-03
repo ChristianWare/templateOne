@@ -7,7 +7,7 @@ function contact() {
       <section>
         <PageIntro
           src={BG}
-          heading='Contact Us'
+          heading='the 411'
           copy='Ready to level up your business? Here are the best ways to get in touch with us. Call us today!'
         />
       </section>
