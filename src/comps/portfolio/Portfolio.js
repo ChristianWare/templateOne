@@ -77,7 +77,7 @@ function Portfolio() {
           </div>
         </div>
         <div className={styles.btnContainer}>
-          <Button text='All Photos' color='tertiary' />
+          <Button text='See All Photos' color='tertiary' />
         </div>
       </div>
     </div>
