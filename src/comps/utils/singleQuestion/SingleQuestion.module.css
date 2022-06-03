@@ -3,11 +3,13 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 2rem;
-    border: 2px solid var(--accent4);
+    border: 2px solid var(--accent5);
     padding: 2rem;
     margin-bottom: 2rem;
     cursor: pointer;
     transition: all 0.2s ease-in;
+    background-color: var(--accent4);
+    color: var(--accent5);
 }
 
 .questionContainer:nth-child(5) {
@@ -15,9 +17,9 @@
 }
 
 .questionContainer:hover, .active {
-    background-color: var(--accent1);
-    border-color: var(--accent4);
-    color: var(--accent1);
+    background-color: var(--accent5);
+    border-color: var(--accent5);
+    color: var(--accent4);
 }
 
 .header {
@@ -29,7 +31,6 @@
 
 .question {
     font-family: "TekoRegular";
-    color: var(--accent4);
     font-size: 3rem;
 }
 
@@ -37,7 +38,6 @@
     font-size: 3rem;
     cursor: pointer;
     margin-left: 1rem;
-    color: var(--accent4);
 }
 
 .answer {

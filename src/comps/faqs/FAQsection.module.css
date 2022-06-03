@@ -21,7 +21,8 @@
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    background-color: var(--accent5);
+    background-color: var(--accent4);
+    border: 2px solid var(--accent5);
     padding: 5rem;
     position: relative;
 }
@@ -35,7 +36,7 @@
     width: 250px;
     height: 40%;
     clip-path: polygon(100% 0, 0 0, 100% 100%);
-    background-color: var(--accent2);
+    background-color: var(--accent5);
 }
 
 .right {
