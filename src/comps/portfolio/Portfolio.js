@@ -1,15 +1,15 @@
 import styles from "./Portfolio.module.css";
 import SectionHeader from "../utils/sectionHeader/SectionHeader";
 import Image from "next/image";
-import Link from "next/link";
 import img1 from "../../../public/images/bg.jpg";
+import Button from "../utils/button/Button";
 
 function Portfolio() {
   return (
     <div className={styles.portfolioContainer}>
-      <SectionHeader text="Our Work" />
+      <SectionHeader text='Our Work' />
       <div className={styles.content}>
-        <div className={styles.boxContainer}>
+        <div9 className={styles.boxContainer}>
           <div className={styles.box1}>
             <Image
               src={img1}
@@ -26,7 +26,6 @@ function Portfolio() {
               objectFit='cover'
             />
           </div>
-
           <div className={styles.box3}>
             <h5>Key Word</h5>
           </div>
@@ -44,8 +43,8 @@ function Portfolio() {
               objectFit='cover'
             />
           </div>
-        </div>
-        <div9 className={styles.boxContainer2}>
+        </div9>
+        <div className={styles.boxContainer2}>
           <div className={styles.box1B}>
             <Image
               src={img1}
@@ -76,7 +75,10 @@ function Portfolio() {
               objectFit='cover'
             />
           </div>
-        </div9>
+        </div>
+        <div className={styles.btnContainer}>
+          <Button text='All Photos' color='tertiary' />
+        </div>
       </div>
     </div>
   );

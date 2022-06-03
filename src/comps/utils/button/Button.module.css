@@ -32,9 +32,9 @@
  }
 
  .tertiary {
-     background-color: var(--accent1);
+     background-color: var(--accent5);
      color: var(--accent4);
-     border: solid 2px var(--accent1);
+     border: solid 2px var(--accent5);
  }
 
  @media screen and (min-width: 481px) {
@@ -55,8 +55,8 @@
 
      .tertiary:hover {
          background-color: var(--accent4);
-         border: 2px solid var(--accent1);
-         color: var(--accent1);
+         border: 2px solid var(--accent5);
+         color: var(--accent5);
          transition: all 0.3s ease-in-out;
      }
  }
