@@ -63,3 +63,45 @@
     margin-top: 2rem;
 }
 
+@media screen and (max-width: 768px) {
+    .infoBox {
+        padding: 3rem;
+    }
+
+    .imgContainer {
+        height: 450px;
+    }
+
+    .imgContainer::after {
+        height: 450px;
+    }
+
+    .infoBox {
+        height: 395px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .infoBox {
+        padding: 2rem;
+    }
+
+    .imgContainer {
+        height: 400px;
+    }
+
+    .imgContainer::after {
+        height: 400px;
+    }
+
+    .infoBox {
+        height: 345px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .infoBox {
+        padding: 1rem;
+    }
+}
+

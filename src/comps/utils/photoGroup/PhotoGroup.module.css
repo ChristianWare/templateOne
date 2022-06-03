@@ -1,6 +1,6 @@
 .gallery {
     padding: 5rem 0;
-    max-width: 1100px;
+    /* max-width: 1100px; */
     margin: 0 auto;
     display: grid;
     grid-gap: 1rem;
@@ -12,7 +12,7 @@
 .imgContainer {
     position: relative;
     height: 100%;
-    border: 2px solid var(--accent1)
+    border: 2px solid var(--accent5)
 }
 
 .vStretch {
