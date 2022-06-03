@@ -129,3 +129,13 @@
         width: calc(100vw - 75px);
     }
 }
+
+@media screen and (max-width: 480px) {
+    .bottom {
+        padding: 0rem;
+    }
+
+    .imgContainer {
+        width: calc(100vw - 40px);
+    }
+}

@@ -95,7 +95,7 @@
 }
 
 @media screen and (max-width: 768px) {
-    .content {
+    .content, .headingCopyContainer {
         padding: 3rem;
     }
 }
@@ -107,7 +107,7 @@
 }
 
 @media screen and (max-width: 480px) {
-    .content {
+    .content, .headingCopyContainer {
         padding: 2rem;
     }
 }
