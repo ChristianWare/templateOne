@@ -16,6 +16,7 @@ function services() {
       />
       <SingleService
         header='Service One'
+        price='$100'
         src={BG}
         angle='left'
         outlineText='outlineTextLeft'
@@ -24,12 +25,14 @@ function services() {
       />
       <SingleService
         header='Service Two'
+        price="$200"
         src={BG}
         angle='right'
         outlineText='outlineTextRight'
       />
       <SingleService
         header='Service Three'
+        price='$300'
         src={BG}
         angle='left'
         outlineText='outlineTextLeft'

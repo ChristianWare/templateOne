@@ -6,6 +6,7 @@ import Button from "../button/Button";
 function SingleService({
   header,
   src,
+  price,
   angle = "",
   outlineText = "",
   jc = "",
@@ -23,7 +24,7 @@ function SingleService({
           className={styles.img}
         />
         <div className={`${styles.headingCopyContainer} ${styles[angle]}`}>
-          <h2 className={styles.heading}>{header}</h2>
+          <h2 className={styles.heading}>{header}{" "} : {price}</h2>
           <p className={styles.copy} lang='en'>
             We are a visulal production company, specializing in ariel drone
             videography and photography. We are a visulal production company,
@@ -34,7 +35,7 @@ function SingleService({
         </div>
         <div className={`${styles.btnContainer} ${styles[btnDirection]}`}>
           <Button text='call us' color='primary' />
-          <Button text='pricing info' color='primaryOutline2' />
+          <Button text='contact' color='primaryOutline2' />
         </div>
       </div>
     </article>
