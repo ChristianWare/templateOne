@@ -16,7 +16,7 @@ function contact() {
         width='100%'
         height='450'
         styles='border:0;'
-        allowfullscreen=''
+        allowFullScreen=''
         loading='lazy'
         referrerpolicy='no-referrer-when-downgrade'
       ></iframe>
