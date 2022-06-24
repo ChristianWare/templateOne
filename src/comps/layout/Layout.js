@@ -1,13 +1,14 @@
 import styles from "./Layout.module.css";
 import Nav from "../nav/Nav";
 import Footer from "../footer/Footer";
+import ScrollIndicator from "../utils/ScrollIndicator/ScrollIndicator";
 
 function Layout({ children }) {
   return (
     <div className={styles.container}>
       <div className={styles.background}>
         <div className={styles.layout}>
-          {/* <ScrollIndicator /> */}
+          <ScrollIndicator />
           {/* <ScrollToTop /> */}
           <Nav />
           {children}
@@ -19,4 +20,4 @@ function Layout({ children }) {
   );
 }
 
-export default Layout;
+export default Layout; 
