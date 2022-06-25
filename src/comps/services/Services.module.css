@@ -79,3 +79,27 @@
         font-size: 2rem;
     }
 }
+
+@media screen and (max-width: 568px) {
+    .bx1 {
+        padding: 2rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .bx1 {
+        padding: 1rem;
+    }
+
+    .bx1:nth-child(1):after {
+        top: -20px;
+        left: -20px;
+        width: 70%;
+        clip-path: polygon(100% 0, 0 0, 0 100%);
+    }
+
+    .bx1:nth-child(3):after {
+        right: -20px;
+        width: 70%;
+    }
+}

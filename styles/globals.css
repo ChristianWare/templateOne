@@ -80,11 +80,10 @@
   font-family: "MontserratRegular",
   sans-serif;
   margin: 0;
-  padding: 0;
   box-sizing: border-box;
   text-decoration: none;
   line-height: 150%;
-  /* scroll-behavior: smooth; */
+  scroll-behavior: smooth;
   overscroll-behavior: none;
   -webkit-tap-highlight-color: transparent;
 }
