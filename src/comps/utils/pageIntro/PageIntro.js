@@ -1,4 +1,4 @@
-import styles from './PageIntro.module.css'
+import styles from "./PageIntro.module.css";
 import Image from "next/image";
 
 function PageIntro({ src = "/public/images/bg.jpg", heading, copy }) {
@@ -7,15 +7,13 @@ function PageIntro({ src = "/public/images/bg.jpg", heading, copy }) {
       <div className={styles.imgContainer}></div>
       <Image src={src} layout='fill' objectFit='cover' className={styles.img} />
       <div className={styles.content}>
-        <h1 className={styles.heading}>
-          {heading}
-        </h1>
-        <h2 className={styles.copy}>
-          {copy}
-        </h2>
+        <div className={styles.headingCopy}>
+          <h1 className={styles.heading}>{heading}</h1>
+          <h2 className={styles.copy}>{copy}</h2>
+        </div>
       </div>
     </section>
   );
 }
 
-export default PageIntro
+export default PageIntro;

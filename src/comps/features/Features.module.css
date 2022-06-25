@@ -65,7 +65,6 @@
     align-items: center;
     gap: 1rem;
     font-family: "TekoRegular";
-    
 }
 
 .icon {
@@ -106,8 +105,12 @@
     }
 
     .bottom p {
-    color: var(--accent1b);
-    hyphens: auto;
-}
+        color: var(--accent1b);
+        hyphens: auto;
+    }
+
+    .feature {
+        justify-content: center;
+    }
 
 }

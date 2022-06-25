@@ -2,6 +2,9 @@ import styles from "./Layout.module.css";
 import Nav from "../nav/Nav";
 import Footer from "../footer/Footer";
 import ScrollIndicator from "../utils/ScrollIndicator/ScrollIndicator";
+import ScrollToTop from '../utils/scrollToTop/ScrollToTop'
+import FinalCTA from "../finalCTA/FinalCTA";
+import ContactSection from "../contactSection/ContactSection";
 
 function Layout({ children }) {
   return (
@@ -9,10 +12,11 @@ function Layout({ children }) {
       <div className={styles.background}>
         <div className={styles.layout}>
           <ScrollIndicator />
-          {/* <ScrollToTop /> */}
+          <ScrollToTop />
           <Nav />
           {children}
-          {/* <PreFooter /> */}
+          <ContactSection />
+          <FinalCTA />
           <Footer />
         </div>
       </div>
@@ -20,4 +24,4 @@ function Layout({ children }) {
   );
 }
 
-export default Layout; 
+export default Layout;

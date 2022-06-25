@@ -7,7 +7,7 @@ import ContactSection from '../contactSection/ContactSection'
 function Footer() {
   return (
     <>
-    <ContactSection />
+    {/* <ContactSection /> */}
       <div className={styles.sectionHeaderContaqiner}>
         <SectionHeader text='call now!' />
       </div>

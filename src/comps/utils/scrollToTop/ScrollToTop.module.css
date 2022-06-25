@@ -1,0 +1,26 @@
+.scrollToTop {
+    background-color: var(--accent5);
+    opacity: 0.5;
+    border-radius: 100%;
+    border: 2px solid var(--accent4);
+    position: fixed;
+    height: 6rem;
+    width: 6rem;
+    bottom: 20px;
+    right: 10px;
+    z-index: 2000;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scrollToTop:hover {
+    opacity: 1;
+}
+
+.icon {
+    font-size: 8rem;
+    margin-bottom: 2rem;
+    color: var(--accent4);
+}

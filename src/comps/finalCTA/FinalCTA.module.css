@@ -1,0 +1,94 @@
+.container {
+    margin-bottom: 10rem;
+    padding: 5rem 10rem;
+    position: relative;
+    z-index: 2;
+    color: var(--accent1);
+}
+
+.content {
+    padding: 5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    background-color: var(--accent2);
+    margin-top: 5rem;
+    position: relative;
+}
+
+.content::after {
+    content: '';
+    z-index: -1;
+    position: absolute;
+    bottom: -25px;
+    left: -25px;
+    width: 200px;
+    height: 200px;
+    clip-path: polygon(0 0, 0% 100%, 100% 100%);
+    background-color: var(--accent5);
+}
+
+.content::before {
+    content: '';
+    z-index: -1;
+    position: absolute;
+    top: -25px;
+    right: -25px;
+    width: 250px;
+    height: 50%;
+    clip-path: polygon(100% 0, 0 0, 100% 100%);
+    background-color: var(--accent5);
+}
+
+.heading {
+    font-family: "TekoRegular";
+    text-align: center;
+}
+
+.copy {
+    font-size: 1.5rem;
+    width: 80%;
+    text-align: center;
+    hyphens: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 5rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container, .content {
+        padding: 3rem;
+    }
+
+    .content::after {
+        content: '';
+        z-index: -1;
+        position: absolute;
+        bottom: -25px;
+        left: -25px;
+        width: 200px;
+        height: 30%;
+        clip-path: polygon(0 0, 0% 100%, 100% 100%);
+        background-color: var(--accent5);
+    }
+
+    .content::before {
+        content: '';
+        z-index: -1;
+        position: absolute;
+        top: -25px;
+        right: -25px;
+        width: 200px;
+        height: 30%;
+        clip-path: polygon(100% 0, 0 0, 100% 100%);
+        background-color: var(--accent5);
+    }
+
+    .copy {
+        width: 100%;
+    }
+}
