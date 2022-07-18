@@ -11,85 +11,40 @@ function services() {
     <section>
       <PageIntro
         src={BG}
-        heading='what we do'
-        copy='Here are a list of the services that we provide. You will also find information on the features that come with each service. If you have any questions feel free to reach out to us at any time.'
+        heading="what we do"
+        copy="Here are a list of the services that we provide. You will also find information on the features that come with each service. If you have any questions feel free to reach out to us at any time."
       />
-      <SingleService
-        header='Service One'
-        price='$100'
-        src={BG}
-        angle='left'
-        outlineText='outlineTextLeft'
-        jc='flexEnd'
-        btnDirection='btnRight'
-      />
-      <SingleService
-        header='Service Two'
-        price="$200"
-        src={BG}
-        angle='right'
-        outlineText='outlineTextRight'
-      />
-      <SingleService
-        header='Service Three'
-        price='$300'
-        src={BG}
-        angle='left'
-        outlineText='outlineTextLeft'
-        jc='flexEnd'
-        btnDirection='btnRight'
-      />
-
-      {/* <SectionHeader
-        text='Service Two'
-        outlineText='outlineTextRight'
-        side='right'
-      />
-      <div className={styles.content}>
-        <div className={styles.imgOverlay}></div>
-        <Image
+      <div id="service1">
+        <SingleService
+          header="Service One"
+          price="$100"
           src={BG}
-          layout='fill'
-          objectFit='cover'
-          className={styles.img}
+          angle="left"
+          outlineText="outlineTextLeft"
+          jc="flexEnd"
+          btnDirection="btnRight"
         />
-        <div className={styles.right}></div>
-        <div className={styles.left}>
-          <h2>Service #2</h2>
-          <p>
-            We are a visulal production company, specializing in ariel drone
-            videography and photography. We are a visulal production company,
-            specializing in ariel drone videography and photography.
-          </p>
-          <h3>
-            We are a visulal production company, specializing in ariel drone
-            videography.
-          </h3>
-        </div>
       </div>
-      <SectionHeader text='Service Three' />
-      <div className={styles.content}>
-        <div className={styles.imgOverlay}></div>
-        <Image
+      <div id="service2">
+        <SingleService
+          header="Service Two"
+          price="$200"
           src={BG}
-          layout='fill'
-          objectFit='cover'
-          className={styles.img}
+          angle="right"
+          outlineText="outlineTextRight"
         />
-        <div className={styles.left}>
-          <h2>Service #3</h2>
-          <p>
-            We are a visulal production company, specializing in ariel drone
-            videography and photography. We are a visulal production company,
-            specializing in ariel drone videography and photography.
-          </p>
-          <h3>
-            We are a visulal production company, specializing in ariel drone
-            videography.
-          </h3>
-        </div>
-        <div className={styles.right}></div>
-      </div> */}
+      </div>
+      <div id="service3">
+        <SingleService
+          header="Service Three"
+          price="$300"
+          src={BG}
+          angle="left"
+          outlineText="outlineTextLeft"
+          jc="flexEnd"
+          btnDirection="btnRight"
+        />
+      </div>
       <Features />
     </section>
   );
