@@ -27,7 +27,7 @@ function Nav() {
         <Link href='/' passHref>
           <div className={styles.navLeft}>
             <span className={styles.navbarLogo}>
-              <a title='Company Name'>DRONOPOLY</a>
+              <a>DRONOPOLY</a>
             </span>
           </div>
         </Link>

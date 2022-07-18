@@ -1,10 +1,9 @@
 import styles from "./PricingSection.module.css";
 import SectionHeader from "../utils/sectionHeader/SectionHeader";
-import FAQs from "../faqs/FAQs";
 
 function PricingSection() {
   return (
-    <section>
+    <section id='pricing'>
       <SectionHeader text='Our plans' />
       <div className={styles.content}>
         <div className={styles.prices}>

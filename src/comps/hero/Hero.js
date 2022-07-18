@@ -18,8 +18,8 @@ function Hero() {
           videography and photography.
         </h2>
         <div className={styles.btnContainer}>
-          <Button text='Contact Us' />
-          <Button text='See Pricing' color='primaryOutline2' />
+          <Button text='Contact Us' href='/contact' />
+          <Button text='See Pricing' color='primaryOutline2' href='#pricing' />
         </div>
         <Services />
       </div>
