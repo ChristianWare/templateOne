@@ -27,6 +27,25 @@
     font-family: "TekoBold";
     transition: all 200ms ease;
     letter-spacing: .5rem;
+    display: inline-block;
+    position: relative;
+    transition: none;
+}
+
+.navbarLogo a::before{
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 0;
+    height: 3px;
+    border-radius: 8px;
+    background-color: var(--accent5);
+    transition: width 0.25s ease-out;
+}
+
+.navbarLogo a:hover::before {
+    width: 100%;
 }
 
 .navmenu {
