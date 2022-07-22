@@ -22,7 +22,7 @@
     align-items: flex-start;
     justify-content: center;
     background-color: var(--accent4);
-    border: 2px solid var(--accent5);
+    border: 1px solid var(--accent5);
     padding: 5rem;
     position: relative;
 }
