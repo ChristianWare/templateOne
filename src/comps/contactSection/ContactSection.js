@@ -30,7 +30,7 @@ function ContactSection() {
             <div className={styles.iconBox}>
               <p>
                 <Phone className={styles.icon} />
-                623-665-6555
+                480-808-2054
               </p>
               <p>
                 <Plane className={styles.icon} />

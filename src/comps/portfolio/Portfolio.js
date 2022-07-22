@@ -12,13 +12,13 @@ import Button from "../utils/button/Button";
 function Portfolio() {
   return (
     <div className={styles.portfolioContainer}>
-      <SectionHeader text='Our Tools' />
+      <SectionHeader text='Our Equipment' />
       <div className={styles.content}>
         <div9 className={styles.boxContainer}>
           <div className={styles.box1}>
             <Image
               src={img1}
-              alt='baerber image'
+              alt='drone image 2'
               layout='fill'
               objectFit='cover'
             />
@@ -26,7 +26,7 @@ function Portfolio() {
           <div className={styles.box2}>
             <Image
               src={img2}
-              alt='baerber image'
+              alt='drone image 2'
               layout='fill'
               objectFit='cover'
             />
@@ -43,7 +43,7 @@ function Portfolio() {
           <div className={styles.box5}>
             <Image
               src={img3}
-              alt='barber image'
+              alt='drone image 3'
               layout='fill'
               objectFit='cover'
             />
@@ -53,7 +53,7 @@ function Portfolio() {
           <div className={styles.box1B}>
             <Image
               src={img4}
-              alt='barber image'
+              alt='drone image 4'
               layout='fill'
               objectFit='cover'
             />
@@ -64,7 +64,7 @@ function Portfolio() {
           <div className={styles.box3B}>
             <Image
               src={img5}
-              alt='baerber image'
+              alt='drone image 5'
               layout='fill'
               objectFit='cover'
             />
@@ -75,14 +75,14 @@ function Portfolio() {
           <div className={styles.box5B}>
             <Image
               src={img6}
-              alt='baerber image'
+              alt='drone image 6'
               layout='fill'
               objectFit='cover'
             />
           </div>
         </div>
         <div className={styles.btnContainer}>
-          <Button text='See All Photos' color='tertiary' />
+          <Button text='See Our Photos' color='tertiary2' href='/gallery' />
         </div>
       </div>
     </div>
