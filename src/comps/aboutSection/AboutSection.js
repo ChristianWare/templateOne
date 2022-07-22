@@ -12,9 +12,7 @@ function AboutSection() {
         <div className={styles.bottomLeft}>
           <h3>Our philosophy & mission</h3>
           <p lang='en'>
-            We are a visulal production company, specializing in ariel drone
-            videography and photography. We are a visulal production company,
-            specializing in ariel drone videography and photography.
+          We are passionate about capturing the perfect shot. From taking drone footage for a simple building survey to creating an aerial video that captures an epic action shot for TV or film, our focus is on telling the most captivating story. 
           </p>
           <div className={styles.btnContainer}>
             <Button text='request a quote' color='tertiary' />
@@ -23,8 +21,7 @@ function AboutSection() {
         <div className={styles.bottomRight}>
           <div className={styles.imgOverlay}></div>
           <h4>
-            We are a visulal production company, specializing in ariel drone
-            videography.
+          We are passionate about capturing the perfect shot. Our focus is on telling you the most captivating story vwith our videos.
           </h4>
           <div className={styles.imgContainer}>
             <Image

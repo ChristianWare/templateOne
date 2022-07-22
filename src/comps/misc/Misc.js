@@ -30,21 +30,22 @@ function Misc() {
           <div className={styles.imgContainer}>
             <Image
               src={img1}
-              layout='fill'
-              objectFit='cover'
+              layout="fill"
+              objectFit="cover"
               className={styles.img}
             />
           </div>
           <div className={styles.infoBoxContainer}>
             <div className={styles.infoBox}>
-              <h3>Misc Content Here</h3>
-              <p lang='en'>
-                We are a visulal production company, specializing in ariel drone
-                videography and photography. We are a visulal production
-                company, specializing in ariel drone videography and
-                photography.We are a visulal production company, specializing in
-                ariel drone videography and photography.We are a visulal
-                production company.
+              <h3>Did You Know?</h3>
+              <p lang="en">
+                Weather can be a challenge. Flying drones in high winds or
+                cloudy conditions isn’t recommended. “I’ve gone out to shoot and
+                it wasn’t raining on the ground, but it was cloudy and misty up
+                where I was shooting. If you get condensation on the lens, your
+                photos will be an unusable, foggy mess,” says Green. To get the
+                best results, know your surroundings and err on the side of
+                caution.
               </p>
             </div>
           </div>
