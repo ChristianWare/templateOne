@@ -1,7 +1,7 @@
 import styles from "./AboutSection.module.css";
 import Button from "../utils/button/Button";
 import Image from "next/image";
-import img1 from "../../../public/images/bg.jpg";
+import img1 from "../../../public/images/d1.jpg";
 import SectionHeader from "../utils/sectionHeader/SectionHeader";
 
 function AboutSection() {
