@@ -6,12 +6,7 @@ function FinalCTA() {
           <div className={styles.content}>
               <h2 className={styles.heading}>Ready to do business with us?</h2>
               <p className={styles.copy} lang='en'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
-                natus ipsum commodi ut, itaque ipsa dicta autem aut expedita eos
-                totam ratione consectetur porro ullam ex vero animi nulla?
-                Obcaecati quasi architecto fugit. Accusantium hic facilis
-                dolores soluta exercitationem qui quidem asperiores quod quae
-                voluptas.
+                Call us today so that we can get started on your next dream project. WE are open 24 hours a day, so feel free to call us whenever you would like! We are looking forward to your call. 
               </p>
           </div>
         </div>

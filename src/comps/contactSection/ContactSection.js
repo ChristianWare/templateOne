@@ -24,8 +24,7 @@ function ContactSection() {
               <span>A Line</span>
             </h2>
             <p className={styles.copy}>
-              We are a visulal production company, specializing in ariel drone
-              videography and photography.
+              If you can dream it, we can drone it!
             </p>
             <div className={styles.iconBox}>
               <p>
