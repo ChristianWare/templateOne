@@ -1,6 +1,6 @@
 import styles from '../styles/gallery.module.css'
 import PageIntro from '../src/comps/utils/pageIntro/PageIntro';
-import BG from '../public/images/bg.jpg'
+import BG from '../public/images/bg3.jpg'
 import PhotoGroup from '../src/comps/utils/photoGroup/PhotoGroup';
 import SectionHeader from '../src/comps/utils/sectionHeader/SectionHeader';
 
