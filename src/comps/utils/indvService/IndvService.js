@@ -2,7 +2,7 @@ import styles from './IndvService.module.css'
 import SectionHeader from '../../utils/sectionHeader/SectionHeader';
 import Button from '../button/Button';
 import Image from 'next/image'
-import img1 from '../../../../public/images/bg.jpg'
+import img1 from '../../../../public/images/bg5.jpg'
 
 function IndvService({ text, side, direction='normal', heading }) {
     return (
