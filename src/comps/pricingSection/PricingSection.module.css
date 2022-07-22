@@ -36,6 +36,7 @@
     padding: 5rem 10rem;
     position: relative;
     z-index: 2;
+    color: var(--accent1);
 }
 
 .leaderInfo {

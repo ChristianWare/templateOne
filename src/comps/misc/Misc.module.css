@@ -31,6 +31,7 @@
     position: absolute;
     top: 0;
     left: 0;
+    color: var(--accent1);
     /* filter: url('#goo'); */
 }
 
