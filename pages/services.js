@@ -1,5 +1,4 @@
 import PageIntro from "../src/comps/utils/pageIntro/PageIntro";
-import styles from "../styles/servicesPage.module.css";
 import BG from "../public/images/bg1.jpg";
 import img1 from "../public/images/bg2.jpg";
 import img2 from "../public/images/bg3.jpg";
@@ -17,33 +16,36 @@ function services() {
       />
       <div id="service1">
         <SingleService
-          header="Service One"
+          header="Automotive"
           price="$100"
           src={img1}
           angle="left"
           outlineText="outlineTextLeft"
           jc="flexEnd"
           btnDirection="btnRight"
+          desc="Put your customers in the driver's seat! We create personalized packages for car dealerships that are proven to increase sales. Digitize anything—basic exterior shots, new inventory releases, tent sales and more. It's a quick, efficient and simple way to encourage customers to choose YOUR dealership."
         />
       </div>
       <div id="service2">
         <SingleService
-          header="Service Two"
+          header="Real Estate"
           price="$200"
           src={img2}
           angle="right"
           outlineText="outlineTextRight"
+          desc="Give potential buyers a bird’s eye view of your entire property using our high quality drone photographs and videos. Real estate professionals understand the power of offering an impressive visual experience. Increasingly, they’re turning to drone photography, and homeowners can do it too! Aerial real estate photography is one of the most innovative and effective ways to attract buyers."
         />
       </div>
       <div id="service3">
         <SingleService
-          header="Service Three"
+          header="360 VR"
           price="$300"
           src={img3}
           angle="left"
           outlineText="outlineTextLeft"
           jc="flexEnd"
           btnDirection="btnRight"
+          desc="Extreme Aerial Productions uses the most advanced drone technology to create 360 panoramic videos. Our 360 VR drone video service is ideal for creating virtual tours, 3D maps and immersive VR video experiences."
         />
       </div>
       <Features />

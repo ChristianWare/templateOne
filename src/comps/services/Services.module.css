@@ -12,6 +12,7 @@
     border: 2px solid var(--accent2);
     color: var(--accent2);
     position: relative;
+    flex: 1;
 }
 
 .bx1:nth-child(1):after {

@@ -11,6 +11,7 @@ function SingleService({
   outlineText = "",
   jc = "",
   btnDirection = "",
+  desc
 }) {
   return (
     <article>
@@ -26,11 +27,7 @@ function SingleService({
         <div className={`${styles.headingCopyContainer} ${styles[angle]}`}>
           <h2 className={styles.heading}>{header}{" "} : {price}</h2>
           <p className={styles.copy} lang='en'>
-            We are a visulal production company, specializing in ariel drone
-            videography and photography. We are a visulal production company,
-            specializing in ariel drone videography and photography. We are a
-            visulal production company, specializing in ariel drone videography
-            and photography.
+            {desc}
           </p>
         </div>
         <div className={`${styles.btnContainer} ${styles[btnDirection]}`}>
