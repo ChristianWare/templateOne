@@ -1,9 +1,10 @@
 import PageIntro from "../src/comps/utils/pageIntro/PageIntro";
 import styles from "../styles/servicesPage.module.css";
-import BG from "../public/images/bg.jpg";
-import Image from "next/image";
+import BG from "../public/images/bg1.jpg";
+import img1 from "../public/images/bg2.jpg";
+import img2 from "../public/images/bg3.jpg";
+import img3 from "../public/images/bg4.jpg";
 import Features from "../src/comps/features/Features";
-import SectionHeader from "../src/comps/utils/sectionHeader/SectionHeader";
 import SingleService from "../src/comps/utils/singleService/SingleService";
 
 function services() {
@@ -18,7 +19,7 @@ function services() {
         <SingleService
           header="Service One"
           price="$100"
-          src={BG}
+          src={img1}
           angle="left"
           outlineText="outlineTextLeft"
           jc="flexEnd"
@@ -29,7 +30,7 @@ function services() {
         <SingleService
           header="Service Two"
           price="$200"
-          src={BG}
+          src={img2}
           angle="right"
           outlineText="outlineTextRight"
         />
@@ -38,7 +39,7 @@ function services() {
         <SingleService
           header="Service Three"
           price="$300"
-          src={BG}
+          src={img3}
           angle="left"
           outlineText="outlineTextLeft"
           jc="flexEnd"
