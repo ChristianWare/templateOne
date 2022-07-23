@@ -1,8 +1,9 @@
 import PageIntro from "../src/comps/utils/pageIntro/PageIntro";
 import BG from "../public/images/bg1.jpg";
-import img1 from "../public/images/bg2.jpg";
-import img2 from "../public/images/bg3.jpg";
+import threed from "../public/images/3d.jpg";
 import img3 from "../public/images/bg4.jpg";
+import car from "../public/images/carbg.jpg";
+import house from "../public/images/house.jpg";
 import Features from "../src/comps/features/Features";
 import SingleService from "../src/comps/utils/singleService/SingleService";
 
@@ -18,7 +19,7 @@ function services() {
         <SingleService
           header="Automotive"
           price="$100"
-          src={img1}
+          src={car}
           angle="left"
           outlineText="outlineTextLeft"
           jc="flexEnd"
@@ -30,7 +31,7 @@ function services() {
         <SingleService
           header="Real Estate"
           price="$200"
-          src={img2}
+          src={house}
           angle="right"
           outlineText="outlineTextRight"
           desc="Give potential buyers a bird’s eye view of your entire property using our high quality drone photographs and videos. Real estate professionals understand the power of offering an impressive visual experience. Increasingly, they’re turning to drone photography, and homeowners can do it too! Aerial real estate photography is one of the most innovative and effective ways to attract buyers."
@@ -40,7 +41,7 @@ function services() {
         <SingleService
           header="360 VR"
           price="$300"
-          src={img3}
+          src={threed}
           angle="left"
           outlineText="outlineTextLeft"
           jc="flexEnd"
