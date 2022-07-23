@@ -115,7 +115,7 @@ function Nav() {
                   href="mailto:chris.ware.dev@gmail.com"
                   className={styles.phoneNumber}
                 >
-                  <Plane className={styles.phone} /> email@company.com
+                  <Plane className={styles.phone} /> chris.ware.dev@gmail.com
                 </a>
               </div>
             </li>
