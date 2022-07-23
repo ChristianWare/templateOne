@@ -12,7 +12,7 @@ import Button from "../utils/button/Button";
 function Portfolio() {
   return (
     <div className={styles.portfolioContainer}>
-      <SectionHeader text='Our Equipment' />
+      <SectionHeader text='Our Tools' />
       <div className={styles.content}>
         <div9 className={styles.boxContainer}>
           <div className={styles.box1}>
