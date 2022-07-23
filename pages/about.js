@@ -29,7 +29,7 @@ function about() {
         <div className={styles.leaderContainer}>
           <div className={styles.leaderInfo}>
             <div className={styles.top}>
-              <h2 className={styles.heading}>Doug "The Pug" De La Vega</h2>
+              <h2 className={styles.heading}>Doug &quot;The Pug&quot; De La Vega</h2>
               <p className={styles.copy} lang="en">
                 Puppy kitty ipsum dolor sit good dog foot stick canary. Teeth
                 Mittens grooming vaccine walk swimming nest good boy furry
