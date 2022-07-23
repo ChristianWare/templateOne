@@ -1,12 +1,12 @@
 import { useState } from "react";
 import styles from "./ContactSection.module.css";
-import Button from "../utils/button/Button";
 import Phone from "../../../public/icons/phone.svg";
 import Plane from "../../../public/icons/plane.svg";
 import FB from "../../../public/icons/facebook.svg";
 import IG from "../../../public/icons/instagram.svg";
 import LI from "../../../public/icons/linkedin.svg";
 import YT from "../../../public/icons/youtube.svg";
+import Check from '../../../public/icons/checked.svg'
 import SectionHeader from "../utils/sectionHeader/SectionHeader";
 
 function ContactSection() {
@@ -149,10 +149,20 @@ function ContactSection() {
                   </label>
                 </div>
                 <div className={styles.btnContainer}>
-                  <div className={styles.containerBtn}>
                     <button className={styles.btn} text="Send Message" color="tertiary">Send Message</button>
-                  </div>
                 </div>
+                {form.state === "loading" ? (
+              <div className={styles.msg}>Sending....</div>
+            ) : form.state === "error" ? (
+              <div className={styles.msg}>{form.message}</div>
+            ) : (
+              form.state === "success" && (
+                <div className={styles.msg}>
+                  <Check className={styles.icon2} />
+                  Sent successfully! We'll be in touch soon.
+                </div>
+              )
+            )}
               </form>
             </div>
           </div>
