@@ -1,5 +1,5 @@
 import styles from "./Features.module.css";
-import Plane from "../../../public/icons/plane.svg";
+import Drone from "../../../public/icons/drone.svg";
 
 function Features() {
   return (
@@ -20,7 +20,7 @@ function Features() {
             <hr className={styles.divide} />
             <h3 className={styles.feature} lang="en">
               <span>
-                <Plane className={styles.icon} />
+                <Drone className={styles.icon} />
               </span>
               LIVE STREAM
             </h3>
@@ -41,7 +41,7 @@ function Features() {
             <hr className={styles.divide} />
             <h3 className={styles.feature} lang="en">
               <span>
-                <Plane className={styles.icon} />
+                <Drone className={styles.icon} />
               </span>
               LONG BATTERY LIFE
             </h3>
@@ -60,7 +60,7 @@ function Features() {
             <hr className={styles.divide} />
             <h3 className={styles.feature} lang="en">
               <span>
-                <Plane className={styles.icon} />
+                <Drone className={styles.icon} />
               </span>
               HDR
             </h3>
@@ -79,7 +79,7 @@ function Features() {
             <hr className={styles.divide} />
             <h3 className={styles.feature} lang="en">
               <span>
-                <Plane className={styles.icon} />
+                <Drone className={styles.icon} />
               </span>
               TRIPOD MODE
             </h3>
