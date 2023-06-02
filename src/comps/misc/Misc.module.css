@@ -1,6 +1,6 @@
 .miscContainer {
     margin-bottom: 15rem;
-    /* filter: url('#goo'); */
+    filter: url('#goo');
 }
 
 .content {

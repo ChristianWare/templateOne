@@ -5,7 +5,7 @@ import img1 from "../../../public/images/bg.jpg";
 function Misc() {
   return (
     <>
-      {/* <svg
+      <svg
         styles='visibility: hidden; position: absolute;'
         width='0'
         height='0'
@@ -24,7 +24,7 @@ function Misc() {
             <feComposite in='SourceGraphic' in2='goo' operator='atop' />
           </filter>
         </defs>
-      </svg> */}
+      </svg>
       <div className={styles.miscContainer}>
         <div className={styles.content}>
           <div className={styles.imgContainer}>

@@ -67,7 +67,7 @@ function SEO({ title, description, canonicalUrl, ogImageUrl, ogTwitterImage }) {
                 "https://www.fontsandfooters.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.1119bc54.png&w=384&q=75",
               "@id": "https://www.fontsandfooters.com/",
               url: "https://www.fontsandfooters.com/",
-              telephone: "+1-480-808-2054",
+              
               address: {
                 "@type": "PostalAddress",
                 streetAddress: "2320 E BASELINE RD 148-421",
