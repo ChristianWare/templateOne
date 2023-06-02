@@ -24,10 +24,10 @@ function Nav() {
   return (
     <header className={styles.header}>
       <div className={styles.navbar}>
-        <Link href='/' passHref>
+        <Link href="/" passHref>
           <div className={styles.navLeft}>
             <span className={styles.navbarLogo}>
-              <a title='Company Name'>COMPANY NAME</a>
+              <a>DRONOPOLY</a>
             </span>
           </div>
         </Link>
@@ -45,8 +45,8 @@ function Nav() {
                 router.pathname === "/" ? styles.activeRouter : ""
               }`}
             >
-              <Link href='/' passHref>
-                <a title='Home Page' onClick={openMenu}>
+              <Link href="/" passHref>
+                <a title="Home Page" onClick={openMenu}>
                   Home
                 </a>
               </Link>
@@ -56,8 +56,8 @@ function Nav() {
                 router.pathname === "/services" ? styles.activeRouter : ""
               }`}
             >
-              <Link href='/services' passHref>
-                <a title='Services Page' onClick={openMenu}>
+              <Link href="/services" passHref>
+                <a title="Services Page" onClick={openMenu}>
                   Services
                 </a>
               </Link>
@@ -67,8 +67,8 @@ function Nav() {
                 router.pathname === "/about" ? styles.activeRouter : ""
               }`}
             >
-              <Link href='/about' passHref>
-                <a title='About Page' onClick={openMenu}>
+              <Link href="/about" passHref>
+                <a title="About Page" onClick={openMenu}>
                   About
                 </a>
               </Link>
@@ -78,8 +78,8 @@ function Nav() {
                 router.pathname === "/gallery" ? styles.activeRouter : ""
               }`}
             >
-              <Link href='/gallery' passHref>
-                <a title='Gallery Page' onClick={openMenu}>
+              <Link href="/gallery" passHref>
+                <a title="Gallery Page" onClick={openMenu}>
                   Gallery
                 </a>
               </Link>
@@ -89,27 +89,34 @@ function Nav() {
                 router.pathname === "/contact" ? styles.activeRouter : ""
               }`}
             >
-              <Link href='/contact' passHref>
-                <a title='Contact Page' onClick={openMenu}>
+              <Link href="/contact" passHref>
+                <a title="Contact Page" onClick={openMenu}>
                   Contact
                 </a>
               </Link>
             </li>
             <li className={styles.navItem}>
-              <Phone className={styles.phone1} />
+              <a href="tel:480-808-2054">
+                <Phone className={styles.phone1} />
+              </a>
               <div className={styles.phoneContainer}>
-                <p className={styles.phoneNumber}>
+                <a href="tel:480-808-2054" className={styles.phoneNumber}>
                   <Phone className={styles.phone} />
-                  623-448-8997
-                </p>
+                  480-808-2054
+                </a>
               </div>
             </li>
             <li className={styles.navItem}>
-              <Plane className={styles.phone1} />
+              <a href="mailto:chris.ware.dev@gmail.com">
+                <Plane className={styles.phone1} />
+              </a>
               <div className={styles.phoneContainer}>
-                <p className={styles.phoneNumber}>
-                  <Plane className={styles.phone} /> email@company.com
-                </p>
+                <a
+                  href="mailto:chris.ware.dev@gmail.com"
+                  className={styles.phoneNumber}
+                >
+                  <Plane className={styles.phone} /> chris.ware.dev@gmail.com
+                </a>
               </div>
             </li>
           </ul>

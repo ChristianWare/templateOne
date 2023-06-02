@@ -1,5 +1,6 @@
 .featuresContainer {
     margin-bottom: 15rem;
+    color: var(--accent1);
 }
 
 .content {
@@ -21,7 +22,6 @@
 }
 
 .copy {
-    color: var(--accent1b);
     hyphens: auto;
     width: 80%;
     text-align: center;
@@ -48,7 +48,6 @@
 }
 
 .bottom p {
-    color: var(--accent1b);
     hyphens: auto;
     font-size: 1.5rem;
 }
@@ -60,7 +59,6 @@
 
 .feature {
     hyphens: auto;
-    color: var(--accent1b);
     display: flex;
     align-items: center;
     gap: 1rem;

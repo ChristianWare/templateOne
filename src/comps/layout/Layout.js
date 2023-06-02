@@ -12,7 +12,7 @@ function Layout({ children }) {
       <div className={styles.background}>
         <div className={styles.layout}>
           <ScrollIndicator />
-          <ScrollToTop />
+          {/* <ScrollToTop /> */}
           <Nav />
           {children}
           <ContactSection />

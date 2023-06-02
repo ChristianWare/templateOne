@@ -115,7 +115,7 @@
     padding: 5px 0;
     font-size: 1.8rem;
     font-weight: 300;
-    color: var(--accent4);
+    color: var(--accent1);
     background-color: var(--accent4);
     border: none;
     outline: none;
@@ -150,7 +150,7 @@
 }
 
 .icon2 {
-    color: var(--accent1);
+    color: var(--accent5);
     position: relative;
     top: 8px;
     left: -10px;
@@ -161,6 +161,25 @@
     font-size: 1.6rem;
     font-weight: bold;
     color: var(--accent1);
+    margin-top: 2rem;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    text-transform: uppercase;
+    font-family: "MontserratBold";
+    font-size: 1.6rem;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 15px 45px;
+    z-index: 5;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    background-color: var(--accent5);
+     color: var(--accent4);
+     border: solid 2px var(--accent5);
 }
 
 @media screen and (max-width: 900px) {
@@ -213,5 +232,14 @@
 @media screen and (max-width: 480px) {
     .content {
         padding: 2rem;
+    }
+}
+
+@media screen and (min-width: 481px) {
+    .btn:hover {
+        background-color: var(--accent4);
+        border: 2px solid var(--accent5);
+        color: var(--accent5);
+        transition: all 0.3s ease-in-out;
     }
 }

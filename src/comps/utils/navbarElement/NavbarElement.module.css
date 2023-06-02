@@ -73,8 +73,12 @@
    transition: all 200ms ease;
 }
 
-.phone {
+.phone, .plane {
     color: var(--accent4);
+}
+
+.phone:hover, .plane:hover {
+    color: var(--accent2);
 }
 
 .activeRouter {

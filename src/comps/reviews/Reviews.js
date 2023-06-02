@@ -1,6 +1,9 @@
 import styles from "./Reviews.module.css";
 import SectionHeader from "../utils/sectionHeader/SectionHeader";
-import img1 from "../../../public/images/bg.jpg";
+import img1 from "../../../public/images/r1.jpg";
+import img2 from "../../../public/images/r2.jpg";
+import img3 from "../../../public/images/r3.jpg";
+import img4 from "../../../public/images/r4.jpg";
 import Image from "next/image";
 import Star from "../utils/star/Star";
 
@@ -18,64 +21,60 @@ function Reviews() {
             <div className={styles.imgContainer}>
               <Image
                 src={img1}
-                width='200'
-                height='200'
+                layout='fill'
+                objectFit="cover"
                 className={styles.img}
               />
             </div>
             <h3>Review 1</h3>
             <Star />
             <p>
-              "We are a visulal production company, specializing in ariel drone
-              videography and photography."
+              "Minions ipsum jiji bananaaaa uuuhhh gelatooo."
             </p>
           </div>
           <div className={styles.review}>
             <div className={styles.imgContainer}>
               <Image
-                src={img1}
-                width='200'
-                height='200'
+                src={img2}
+                layout='fill'
+                objectFit="cover"
                 className={styles.img}
               />
             </div>
             <h3>Review 2</h3>
             <Star />
             <p>
-              "We are a visulal production company, specializing in ariel drone
-              videography and photography."
+              "Listen to your inner voice."
             </p>
           </div>
           <div className={styles.review}>
             <div className={styles.imgContainer}>
               <Image
-                src={img1}
-                width='200'
-                height='200'
+                src={img3}
+                layout='fill'
+                objectFit="cover"
                 className={styles.img}
               />
             </div>
             <h3>Review 3</h3>
             <Star />
             <p>
-              "We are a visulal production company, specializing in ariel drone
-              videography and photography."
+              "I'm not wearing hockey pads."
             </p>
           </div>
           <div className={styles.review}>
             <div className={styles.imgContainer}>
               <Image
-                src={img1}
-                width='200'
-                height='200'
+                src={img4}
+                layout='fill'
+                objectFit="cover"
                 className={styles.img}
               />
             </div>
             <h3>Review 4</h3>
             <Star />
             <p>
-              "We are a visulal production company, specializing in ariel drone
-              videography and photography."
+              "The key is to drink coconut, fresh coconut, trust me."
             </p>
           </div>
         </div>

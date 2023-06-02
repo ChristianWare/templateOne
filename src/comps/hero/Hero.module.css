@@ -28,8 +28,9 @@
     font-size: 8rem;
     color: var(--accent4);
     text-align: center;
-    line-height: .6;
+    line-height: 100%;
     z-index: 3;
+    margin-bottom: 3rem;
 }
 
 .heading span {
@@ -79,6 +80,10 @@
 @media screen and (max-width: 480px) {
     .content {
         padding: 3rem;
+    }
+
+    .copy {
+        line-height: 140%;
     }
 }
 

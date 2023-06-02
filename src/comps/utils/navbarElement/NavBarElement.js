@@ -16,12 +16,11 @@ function NavBarElement() {
       <div className={styles.navbar}>
         <div className={styles.navLeft}>
           <span className={styles.navbarLogo}>
-            <a title='Company Name'>LOGO</a>
+            <a title="Company Name">LOGO</a>
           </span>
-          <small className={styles.copy} lang='en'>
+          <small className={styles.copy} lang="en">
             We are a visulal production company, specializing in ariel drone
-            videography and photography.We are a visulal production company,
-            specializing in ariel drone videography and photography.
+            videography and photography.
           </small>
           <div className={styles.socials}>
             <FB className={styles.socialIcon} />
@@ -37,8 +36,8 @@ function NavBarElement() {
                 router.pathname === "/" ? styles.activeRouter : ""
               }`}
             >
-              <Link href='/' passHref>
-                <a title='Home Page'>Home</a>
+              <Link href="/" passHref>
+                <a title="Home Page">Home</a>
               </Link>
             </li>
             <li
@@ -46,8 +45,8 @@ function NavBarElement() {
                 router.pathname === "/services" ? styles.activeRouter : ""
               }`}
             >
-              <Link href='/services' passHref>
-                <a title='Services Page'>Services</a>
+              <Link href="/services" passHref>
+                <a title="Services Page">Services</a>
               </Link>
             </li>
             <li
@@ -55,8 +54,8 @@ function NavBarElement() {
                 router.pathname === "/about" ? styles.activeRouter : ""
               }`}
             >
-              <Link href='/about' passHref>
-                <a title='About Page'>About</a>
+              <Link href="/about" passHref>
+                <a title="About Page">About</a>
               </Link>
             </li>
             <li
@@ -64,8 +63,8 @@ function NavBarElement() {
                 router.pathname === "/pricing" ? styles.activeRouter : ""
               }`}
             >
-              <Link href='/pricing' passHref>
-                <a title='Pricing Page'>Pricing</a>
+              <Link href="/gallery" passHref>
+                <a title="Pricing Page">Gallery</a>
               </Link>
             </li>
             <li
@@ -73,15 +72,19 @@ function NavBarElement() {
                 router.pathname === "/contact" ? styles.activeRouter : ""
               }`}
             >
-              <Link href='/contact' passHref>
-                <a title='Contact Page'>Contact</a>
+              <Link href="/contact" passHref>
+                <a title="Contact Page">Contact</a>
               </Link>
             </li>
             <li className={styles.navItem}>
-              <Phone className={styles.phone} />
+              <a href="tel:480-808-2054">
+                <Phone className={styles.phone} />
+              </a>
             </li>
             <li className={styles.navItem}>
-              <Plane className={styles.phone} />
+              <a href="mailto:chris.ware.dev@gmail.com">
+                <Plane className={styles.plane} />
+              </a>
             </li>
           </ul>
         </div>

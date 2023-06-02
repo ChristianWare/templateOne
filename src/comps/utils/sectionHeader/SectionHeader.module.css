@@ -66,7 +66,7 @@
     z-index: -1;
     top: 0;
     left: -120px;
-    width: 160%;
+    width: 200%;
     height: 100%;
     background-color: var(--accent2);
     clip-path: polygon(100% 0%, 100% 100%, 0% 100%, 20% 0%);
@@ -84,7 +84,7 @@
 }
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 480px) {
     .outlineTextLeft, .outlineTextRight {
         font-size: 7rem;
     }
@@ -96,12 +96,13 @@
 
     .outlineTextLeft::after {
         left: 0px;
-        width: 10%;
+        width: 50%;
+        /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%); */
     }
 
     .outlineTextRight::after {
         left: 0px;
-        width: 60%;
-        clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
+        width: 100%;
+        /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%); */
     }
 }

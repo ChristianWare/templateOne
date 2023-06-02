@@ -12,6 +12,7 @@
     border: 2px solid var(--accent2);
     color: var(--accent2);
     position: relative;
+    flex: 1;
 }
 
 .bx1:nth-child(1):after {
@@ -57,6 +58,7 @@
 .servicesBoxes h4 {
     font-size: 2.5rem;
     font-family: "TekoRegular";
+    cursor: pointer;
 }
 
 @media screen and (max-width: 968px) {
@@ -74,32 +76,38 @@
         align-items: center;
     }
 
+    .bx1:nth-child(1):after {
+        top: -20px;
+        left: -20px;
+        width: 40%;
+        clip-path: polygon(100% 0, 0 0, 0 100%);
+    }
+
+    .bx1:nth-child(3):after {
+        right: -20px;
+        width: 40%;
+    }
+
     .servicesBoxes p {
         text-align: center;
-        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .servicesBoxes {
+        padding: 5rem 0rem;
     }
 }
 
 @media screen and (max-width: 568px) {
     .bx1 {
         padding: 2rem;
+        width: 100%;
     }
 }
 
 @media screen and (max-width: 480px) {
     .bx1 {
         padding: 1rem;
-    }
-
-    .bx1:nth-child(1):after {
-        top: -20px;
-        left: -20px;
-        width: 70%;
-        clip-path: polygon(100% 0, 0 0, 0 100%);
-    }
-
-    .bx1:nth-child(3):after {
-        right: -20px;
-        width: 70%;
     }
 }

@@ -1,28 +1,28 @@
 const questions = [
   {
-    title: "How long does it take you to build a website on average?",
-    info: "On average it take approximately two weeks to design, develop, and deploy your website. Also, depending on if any additional services are needed, then this may increase the time of the project. All projects are completed in a timely manner.",
+    title: "What is your turn around time?",
+    info: "We think it’s great when clients give us a one week notice prior to a shoot; however, we often aren’t afforded that much time and are happy to help you more quickly if you need it. We can deliver edited still photos within 24 hours following the time of the shoot.",
     open: true,
   },
   {
-    title: "How long will it take to see SEO results?",
-    info: "SEO results will not happen over night. It can take up to 6 months to see results. If you are interested in immediate results, you can alway purchase ad space with google, so that you rank on top of a page. However, people usually do not click on the ad links whenever they are searching for something, so we do not recommend this option. You may see a slight increase in web views, however, nothing beats a website with good SEO. Our SEO services are included with every website we build.",
+    title: "How will I get my files?",
+    info: "For most projects, we will deliver edited digital photos to you via Google Drive within 24 hours following the completion of the shoot. If your project requires additional post-processing work including mapping, video editing, or image stitching, delivery time can take several days. You will receive an email that includes a link to your online photo gallery where you can download all of these files to a local device.",
     open: false,
   },
   {
     title:
-      "Why is your services better than Wordpress, Wix, or any other DYI page builders?",
-    info: "Our sites are better than the typical page builders that are used to build websites today, because the people who usually use this platform to build websites are not developers. That is the equivalent of us changing the brakes on your car for you, even though we are not mechanics. Sure, we can do it, but a job like that is better left to a professional. Also, page builders are bloated with lots of unnecessary code that slows you site down, and makes your site hard to read on mobile devices. Our sites are fast and look good on any device!",
+      "Do I need to be onsite for the shoot?",
+    info: "It is typically not necessary for you to be on-site for the shoot; however, you are welcome to join us if you feel it will be beneficial. Our pilots are trained professionals and can capture high-quality imagery in just about any setting. Please note that if you do opt to join us on the shoot, scheduling times might be delayed as this will have to be coordinated with multiple parties. We will share our project intake form with you prior to scheduling the project. This form allows you to describe your preferences, goals, and objectives in full detail. Most of our clients choose to communicate online or over the phone.",
     open: false,
   },
   {
-    title: "How fast can you make my website?",
-    info: "We pride ourselves in building websites that load in under 3 seconds. We optimze the images, and preload the fonts. These are two of the most importnt things that can be dont to insure websites run fast and smoothly. Large images are some tof the primary reasons why websites load fast. This is not a problem with our sites.",
+    title: "What kind of weather would be best for the shoot?",
+    info: "This depends on what you are trying to accomplish and your personal preferences. For marketing photos, many professionals prefer partly cloudy weather because of the abundant sunlight along with just enough clouds in the sky to display texture in the photos.",
     open: false,
   },
   {
-    title: "What's the catch?",
-    info: "We pride ourselves in building websites that load in under 3 seconds. We optimize the images, and preload the fonts. These are two of the most important things that can be don’t to insure websites run fast and smoothly. Large images are some of the primary reasons why websites load fast. This is not a problem with our sites.",
+    title: "Can you capture the entire property in one photo?",
+    info: "This largely depends on the nature of your project and the size of the property. Our pilots can legally fly at heights of up to 400 feet in most locations. A good rule of thumb is to assume the drone can capture about 20 acres in a single, nadir (camera pointing directly down), shot from 400 feet.If you are not looking for nadir shots, and would instead prefer oblique shots (captured at an angle), the imagery can include a much wider territory as the camera will be pointing out into the horizon.",
     open: false,
   },
 ];
