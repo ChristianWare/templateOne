@@ -85,10 +85,7 @@ function ContactSection() {
             </h2>
             <p className={styles.copy}>If you can dream it, we can drone it!</p>
             <div className={styles.iconBox}>
-              <p>
-                <Phone className={styles.icon} />
-                480-808-2054
-              </p>
+             
               <p>
                 <Plane className={styles.icon} />
                 hello@email.com
